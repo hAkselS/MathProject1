@@ -1,0 +1,3 @@
+/Users/asloan/MathProject1/fprime/Svc/BufferLogger/Commands.fppi
+/Users/asloan/MathProject1/fprime/Svc/BufferLogger/Events.fppi
+/Users/asloan/MathProject1/fprime/Svc/BufferLogger/Telemetry.fppi

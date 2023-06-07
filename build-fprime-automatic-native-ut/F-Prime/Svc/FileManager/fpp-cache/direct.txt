@@ -1,0 +1,7 @@
+/Users/asloan/MathProject1/fprime/Fw/Cmd/Cmd.fpp
+/Users/asloan/MathProject1/fprime/Fw/Log/Log.fpp
+/Users/asloan/MathProject1/fprime/Fw/Tlm/Tlm.fpp
+/Users/asloan/MathProject1/fprime/Svc/FileManager/Commands.fppi
+/Users/asloan/MathProject1/fprime/Svc/FileManager/Events.fppi
+/Users/asloan/MathProject1/fprime/Svc/FileManager/Telemetry.fppi
+/Users/asloan/MathProject1/fprime/Svc/Ping/Ping.fpp

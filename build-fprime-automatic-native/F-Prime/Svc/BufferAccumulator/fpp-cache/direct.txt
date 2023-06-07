@@ -1,0 +1,8 @@
+/Users/asloan/MathProject1/fprime/Fw/Buffer/Buffer.fpp
+/Users/asloan/MathProject1/fprime/Fw/Cmd/Cmd.fpp
+/Users/asloan/MathProject1/fprime/Fw/Log/Log.fpp
+/Users/asloan/MathProject1/fprime/Fw/Tlm/Tlm.fpp
+/Users/asloan/MathProject1/fprime/Svc/BufferAccumulator/Commands.fppi
+/Users/asloan/MathProject1/fprime/Svc/BufferAccumulator/Events.fppi
+/Users/asloan/MathProject1/fprime/Svc/BufferAccumulator/Telemetry.fppi
+/Users/asloan/MathProject1/fprime/Svc/Ping/Ping.fpp

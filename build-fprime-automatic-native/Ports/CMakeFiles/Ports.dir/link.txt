@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../lib/Darwin/libPorts.a CMakeFiles/Ports.dir/MathResultPortAc.cpp.o CMakeFiles/Ports.dir/OpRequestPortAc.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../lib/Darwin/libPorts.a

@@ -1,0 +1,4 @@
+/Users/asloan/MathProject1/Ports/MathPorts.fpp
+/Users/asloan/MathProject1/fprime/Fw/Cmd/Cmd.fpp
+/Users/asloan/MathProject1/fprime/Fw/Log/Log.fpp
+/Users/asloan/MathProject1/fprime/Fw/Tlm/Tlm.fpp
