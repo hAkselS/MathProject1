@@ -1,0 +1,66 @@
+Hit Ctrl-C to quit
+EVENT: (1280) (2:1686169134,122177) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x500 registered to port 0 slot 0
+EVENT: (1280) (2:1686169134,122415) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x501 registered to port 0 slot 1
+EVENT: (1280) (2:1686169134,122438) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x502 registered to port 0 slot 2
+EVENT: (1280) (2:1686169134,122466) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x503 registered to port 0 slot 3
+EVENT: (1280) (2:1686169134,122482) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x600 registered to port 1 slot 4
+EVENT: (1280) (2:1686169134,122494) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x601 registered to port 1 slot 5
+EVENT: (1280) (2:1686169134,122507) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x602 registered to port 1 slot 6
+EVENT: (1280) (2:1686169134,122519) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x603 registered to port 1 slot 7
+EVENT: (1280) (2:1686169134,122530) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x604 registered to port 1 slot 8
+EVENT: (1280) (2:1686169134,122541) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x605 registered to port 1 slot 9
+EVENT: (1280) (2:1686169134,122562) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x606 registered to port 1 slot 10
+EVENT: (1280) (2:1686169134,122582) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x607 registered to port 1 slot 11
+EVENT: (1280) (2:1686169134,122594) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0xb00 registered to port 2 slot 12
+EVENT: (1280) (2:1686169134,122605) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0xb02 registered to port 2 slot 13
+EVENT: (1280) (2:1686169134,122617) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0xb03 registered to port 2 slot 14
+EVENT: (1280) (2:1686169134,122629) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x700 registered to port 3 slot 15
+EVENT: (1280) (2:1686169134,122640) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x701 registered to port 3 slot 16
+EVENT: (1280) (2:1686169134,122652) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x702 registered to port 3 slot 17
+EVENT: (1280) (2:1686169134,122663) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x800 registered to port 4 slot 18
+EVENT: (1280) (2:1686169134,122675) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x801 registered to port 4 slot 19
+EVENT: (1280) (2:1686169134,122685) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x802 registered to port 4 slot 20
+EVENT: (1280) (2:1686169134,122695) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x803 registered to port 4 slot 21
+EVENT: (1280) (2:1686169134,122705) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x804 registered to port 4 slot 22
+EVENT: (1280) (2:1686169134,122716) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x805 registered to port 4 slot 23
+EVENT: (1280) (2:1686169134,122727) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x806 registered to port 4 slot 24
+EVENT: (1280) (2:1686169134,122739) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x2000 registered to port 5 slot 25
+EVENT: (1280) (2:1686169134,122750) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x2001 registered to port 5 slot 26
+EVENT: (1280) (2:1686169134,122762) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x2002 registered to port 5 slot 27
+EVENT: (1280) (2:1686169134,122773) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x2700 registered to port 6 slot 28
+EVENT: (1280) (2:1686169134,122785) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x270a registered to port 6 slot 29
+EVENT: (1280) (2:1686169134,122796) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x270b registered to port 6 slot 30
+EVENT: (1280) (2:1686169134,122808) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0xe00 registered to port 7 slot 31
+EVENT: (1280) (2:1686169134,122820) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0xd00 registered to port 8 slot 32
+EVENT: (1280) (2:1686169134,122832) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4a00 registered to port 9 slot 33
+EVENT: (1280) (2:1686169134,122844) DIAGNOSTIC: (cmdDisp) OpCodeRegistered : Opcode 0x4a01 registered to port 9 slot 34
+EVENT: (3334) (2:1686169134,122892) WARNING_HI: (prmDb) PrmFileReadError : Parameter file read failed in stage OPEN (0) with record 0 and error 1
+EVENT: (3328) (2:1686169134,122934) WARNING_LO: (prmDb) PrmIdNotFound : Parameter ID 0x2700 not found
+[WARNING] High task priority of 140 being clamped to 47
+[WARNING] High task priority of 101 being clamped to 47
+[WARNING] High task priority of 100 being clamped to 47
+[WARNING] High task priority of 98 being clamped to 47
+[WARNING] High task priority of 100 being clamped to 47
+[ERROR] Failed to send framed data: 2
+[WARNING] High task priority of 100 being clamped to 47
+[ERROR] Failed to send framed data: 2
+[WARNING] High task priority of 100 being clamped to 47
+[WARNING] High task priority of 100 being clamped to 47
+[WARNING] High task priority of 96 being clamped to 47
+[WARNING] High task priority of 120 being clamped to 47
+[WARNING] High task priority of 119 being clamped to 47
+EVENT: (512) (2:1686169134,123395) DIAGNOSTIC: (rateGroup1) RateGroupStarted : Rate group started.
+EVENT: (768) (2:1686169134,123415) DIAGNOSTIC: (rateGroup2) RateGroupStarted : Rate group started.
+[WARNING] High task priority of 118 being clamped to 47
+EVENT: (1024) (2:1686169134,123466) DIAGNOSTIC: (rateGroup3) RateGroupStarted : Rate group started.
+[WARNING] High task priority of 97 being clamped to 47
+[WARNING] High task priority of 100 being clamped to 47
+Connected to 0.0.0.0:50000 as a tcp client
+EVENT: (1281) (2:1686169166,131984) COMMAND: (cmdDisp) OpCodeDispatched : Opcode 0xe00 dispatched to port 7
+EVENT: (3584) (2:1686169166,131997) ACTIVITY_LO: (mathSender) COMMAND_RECV : Math command received: 1.000000 DIV (3) 0.000000
+EVENT: (1282) (2:1686169166,132101) COMMAND: (cmdDisp) OpCodeCompleted : Opcode 0xe00 completed
+EVENT: (9985) (2:1686169166,207536) ACTIVITY_HI: (mathReceiver) OPERATION_PERFORMED : DIV (3) operation performed
+EVENT: (3585) (2:1686169166,207770) ACTIVITY_HI: (mathSender) RESULT : Math result is 0.000000
+[WARNING] Failed to recv from port with status -8 and errno 57
+[WARNING] Failed to open port with status -4 and errno 54
+Exiting...

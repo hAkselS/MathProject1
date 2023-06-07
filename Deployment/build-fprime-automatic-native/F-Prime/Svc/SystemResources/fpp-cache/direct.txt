@@ -1,0 +1,5 @@
+/Users/asloan/MathProject1/fprime/Fw/Cmd/Cmd.fpp
+/Users/asloan/MathProject1/fprime/Fw/Log/Log.fpp
+/Users/asloan/MathProject1/fprime/Fw/Time/Time.fpp
+/Users/asloan/MathProject1/fprime/Fw/Tlm/Tlm.fpp
+/Users/asloan/MathProject1/fprime/Svc/Sched/Sched.fpp

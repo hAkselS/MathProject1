@@ -1,0 +1,5 @@
+2023-06-06 09:25:13,(2(0)-1686068713:249945),cmdDisp.OpCodeDispatched,1281,EventSeverity.COMMAND,Opcode 0xe00 dispatched to port 7
+2023-06-06 09:25:13,(2(0)-1686068713:249961),mathSender.COMMAND_RECV,3584,EventSeverity.ACTIVITY_LO,Math command received: 7.000000 MUL 6.000000
+2023-06-06 09:25:13,(2(0)-1686068713:251557),cmdDisp.OpCodeCompleted,1282,EventSeverity.COMMAND,Opcode 0xe00 completed
+2023-06-06 09:25:13,(2(0)-1686068713:419636),mathReceiver.OPERATION_PERFORMED,9985,EventSeverity.ACTIVITY_HI,MUL operation performed
+2023-06-06 09:25:13,(2(0)-1686068713:419698),mathSender.RESULT,3585,EventSeverity.ACTIVITY_HI,Math result is 42.000000

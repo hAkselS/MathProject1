@@ -1,0 +1,4 @@
+/Users/asloan/MathProject1/fprime/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp
+/Users/asloan/MathProject1/fprime/Fw/Cmd/Cmd.fpp
+/Users/asloan/MathProject1/fprime/Fw/Com/Com.fpp
+/Users/asloan/MathProject1/fprime/Svc/Sched/Sched.fpp

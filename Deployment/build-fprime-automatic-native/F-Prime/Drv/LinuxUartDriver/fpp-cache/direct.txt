@@ -1,0 +1,5 @@
+/Users/asloan/MathProject1/fprime/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp
+/Users/asloan/MathProject1/fprime/Drv/LinuxUartDriver/Events.fppi
+/Users/asloan/MathProject1/fprime/Drv/LinuxUartDriver/Telemetry.fppi
+/Users/asloan/MathProject1/fprime/Fw/Log/Log.fpp
+/Users/asloan/MathProject1/fprime/Fw/Tlm/Tlm.fpp

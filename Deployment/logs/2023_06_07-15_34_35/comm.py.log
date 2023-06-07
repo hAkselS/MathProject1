@@ -1,0 +1,11 @@
+[2023-06-07 15:34:40,665] [INFO] root: Logging system initialized!
+[2023-06-07 15:34:40,665] [INFO] root: Logging system initialized!
+[2023-06-07 15:34:40,665] [INFO] root: Logging system initialized!
+[2023-06-07 15:34:40,666] [INFO] comm: Starting uplinker/downlinker connecting to FSW using Paired-TCP/UDP@0.0.0.0:50000 with FpFramerDeframer
+[2023-06-07 15:34:40,666] [INFO] comm: Starting uplinker/downlinker connecting to FSW using Paired-TCP/UDP@0.0.0.0:50000 with FpFramerDeframer
+[2023-06-07 15:34:40,666] [INFO] gds_sender: Client connected to 0.0.0.0:50050
+[2023-06-07 15:34:40,666] [INFO] gds_sender: Client connected to 0.0.0.0:50050
+[2023-06-07 15:34:40,667] [INFO] udp_handler: Server connected to 0.0.0.0:50000
+[2023-06-07 15:34:40,667] [INFO] udp_handler: Server connected to 0.0.0.0:50000
+[2023-06-07 15:34:41,786] [INFO] tcp_handler: Server connected to 0.0.0.0:50000
+[2023-06-07 15:34:41,786] [INFO] tcp_handler: Server connected to 0.0.0.0:50000

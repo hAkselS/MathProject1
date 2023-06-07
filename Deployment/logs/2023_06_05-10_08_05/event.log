@@ -1,0 +1,4 @@
+2023-06-05 10:12:37,(2(0)-1685985157:285350),cmdDisp.OpCodeDispatched,1281,EventSeverity.COMMAND,Opcode 0xe00 dispatched to port 7
+2023-06-05 10:12:37,(2(0)-1685985157:285362),mathSender.COMMAND_RECV,3584,EventSeverity.ACTIVITY_LO,Math command received: 1.000000 ADD 2.000000
+2023-06-05 10:12:37,(2(0)-1685985157:285457),cmdDisp.OpCodeCompleted,1282,EventSeverity.COMMAND,Opcode 0xe00 completed
+2023-06-05 10:12:38,(2(0)-1685985158:185056),fatalAdapter.AF_ASSERT_1,16897,EventSeverity.FATAL,Assert in file /Users/asloan/MathProject1/Components/MathReceiver/MathReceiver.cpp, line 71: 0

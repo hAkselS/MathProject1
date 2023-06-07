@@ -1,0 +1,16 @@
+2023-06-07 15:35:05,(2(0)-1686177305:842389),cmdDisp.OpCodeDispatched,1281,EventSeverity.COMMAND,Opcode 0xe00 dispatched to port 7
+2023-06-07 15:35:05,(2(0)-1686177305:842403),mathSender.COMMAND_RECV,3584,EventSeverity.ACTIVITY_LO,Math command received: 2.000000 DIV 0.000000
+2023-06-07 15:35:05,(2(0)-1686177305:842500),cmdDisp.OpCodeCompleted,1282,EventSeverity.COMMAND,Opcode 0xe00 completed
+2023-06-07 15:35:05,(2(0)-1686177305:851302),mathReceiver.DIVIDE_BY_ZERO,9987,EventSeverity.ACTIVITY_HI,ERROR: Received zero as denominator. Opperands dropped.
+2023-06-07 15:35:05,(2(0)-1686177305:851357),mathReceiver.OPERATION_PERFORMED,9985,EventSeverity.ACTIVITY_HI,DIV operation performed
+2023-06-07 15:35:05,(2(0)-1686177305:851405),mathSender.RESULT,3585,EventSeverity.ACTIVITY_HI,Math result is 0.000000
+2023-06-07 15:35:25,(2(0)-1686177325:460350),cmdDisp.OpCodeDispatched,1281,EventSeverity.COMMAND,Opcode 0xe00 dispatched to port 7
+2023-06-07 15:35:25,(2(0)-1686177325:460361),mathSender.COMMAND_RECV,3584,EventSeverity.ACTIVITY_LO,Math command received: 2.000000 DIV 1.000000
+2023-06-07 15:35:25,(2(0)-1686177325:460436),cmdDisp.OpCodeCompleted,1282,EventSeverity.COMMAND,Opcode 0xe00 completed
+2023-06-07 15:35:25,(2(0)-1686177325:907912),mathReceiver.OPERATION_PERFORMED,9985,EventSeverity.ACTIVITY_HI,DIV operation performed
+2023-06-07 15:35:25,(2(0)-1686177325:908085),mathSender.RESULT,3585,EventSeverity.ACTIVITY_HI,Math result is 2.000000
+2023-06-07 15:35:41,(2(0)-1686177341:361034),cmdDisp.OpCodeDispatched,1281,EventSeverity.COMMAND,Opcode 0xe00 dispatched to port 7
+2023-06-07 15:35:41,(2(0)-1686177341:361046),mathSender.COMMAND_RECV,3584,EventSeverity.ACTIVITY_LO,Math command received: 2.000000 ADD 0.000000
+2023-06-07 15:35:41,(2(0)-1686177341:361118),cmdDisp.OpCodeCompleted,1282,EventSeverity.COMMAND,Opcode 0xe00 completed
+2023-06-07 15:35:41,(2(0)-1686177341:951723),mathReceiver.OPERATION_PERFORMED,9985,EventSeverity.ACTIVITY_HI,ADD operation performed
+2023-06-07 15:35:41,(2(0)-1686177341:951844),mathSender.RESULT,3585,EventSeverity.ACTIVITY_HI,Math result is 2.000000

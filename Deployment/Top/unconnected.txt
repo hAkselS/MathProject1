@@ -1,0 +1,22 @@
+Topology Deployment.Deployment:
+  Deployment.blockDrv.BufferIn
+  Deployment.blockDrv.BufferOut
+  Deployment.cmdSeq.seqCancelIn
+  Deployment.cmdSeq.seqDone
+  Deployment.cmdSeq.seqRunIn
+  Deployment.comm.poll
+  Deployment.comm.ready
+  Deployment.downlink.comStatusIn
+  Deployment.downlink.comStatusOut
+  Deployment.fileDownlink.FileComplete
+  Deployment.fileDownlink.SendFile
+  Deployment.health.WdogStroke
+  Deployment.mathReceiver.mathOpIn
+  Deployment.mathReceiver.mathResultOut
+  Deployment.mathReceiver.schedIn
+  Deployment.mathSender.mathOpOut
+  Deployment.mathSender.mathResultIn
+  Deployment.tlmSend.TlmGet
+  Deployment.uplink.framedPoll
+  Deployment.uplink.schedIn
+
