@@ -76,9 +76,16 @@ namespace MathModule {
     // Multiply result by factor
     res *= factor;
 
+    //step 3:
+    // Increment the math op counter
+    numMathOps++; 
+
     // Emit telemetry and events
     this->log_ACTIVITY_HI_OPERATION_PERFORMED(op);
     this->tlmWrite_OPERATION(op);
+    //step 4:
+    //emit the number of ops 
+    this->tlmWrite_NUMBER_OF_OPS(numMathOps); 
 
     // Emit result
     this->mathResultOut_out(0, res);

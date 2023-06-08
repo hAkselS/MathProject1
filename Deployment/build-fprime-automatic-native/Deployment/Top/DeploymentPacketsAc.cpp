@@ -109,6 +109,7 @@ namespace Deployment {
   static const Svc::TlmPacketizerChannelEntry MathReceiverList[] = {
       {9984, 4}, // mathReceiver.OPERATION
       {9985, 4}, // mathReceiver.FACTOR
+      {9986, 4}, // mathReceiver.NUMBER_OF_OPS
   };
 
   static const Svc::TlmPacketizerPacket MathReceiver = { MathReceiverList, 22, 3, FW_NUM_ARRAY_ELEMENTS(MathReceiverList) };

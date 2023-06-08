@@ -1,0 +1,70 @@
+2023-06-07 16:55:16,(2(0)-1686182116:470403),cmdDisp.OpCodeDispatched,1281,EventSeverity.COMMAND,Opcode 0xe00 dispatched to port 7
+2023-06-07 16:55:16,(2(0)-1686182116:470417),mathSender.COMMAND_RECV,3584,EventSeverity.ACTIVITY_LO,Math command received: 6.000000 MUL 3.000000
+2023-06-07 16:55:16,(2(0)-1686182116:470532),cmdDisp.OpCodeCompleted,1282,EventSeverity.COMMAND,Opcode 0xe00 completed
+2023-06-07 16:55:17,(2(0)-1686182117:63225),mathReceiver.OPERATION_PERFORMED,9985,EventSeverity.ACTIVITY_HI,MUL operation performed
+2023-06-07 16:55:17,(2(0)-1686182117:63282),mathSender.RESULT,3585,EventSeverity.ACTIVITY_HI,Math result is 18.000000
+2023-06-07 16:55:39,(2(0)-1686182139:613526),cmdDisp.OpCodeDispatched,1281,EventSeverity.COMMAND,Opcode 0xe00 dispatched to port 7
+2023-06-07 16:55:39,(2(0)-1686182139:613539),mathSender.COMMAND_RECV,3584,EventSeverity.ACTIVITY_LO,Math command received: 6.000000 MUL 3.000000
+2023-06-07 16:55:39,(2(0)-1686182139:613633),cmdDisp.OpCodeCompleted,1282,EventSeverity.COMMAND,Opcode 0xe00 completed
+2023-06-07 16:55:40,(2(0)-1686182140:118117),mathReceiver.OPERATION_PERFORMED,9985,EventSeverity.ACTIVITY_HI,MUL operation performed
+2023-06-07 16:55:40,(2(0)-1686182140:118210),mathSender.RESULT,3585,EventSeverity.ACTIVITY_HI,Math result is 18.000000
+2023-06-07 16:55:40,(2(0)-1686182140:137388),cmdDisp.OpCodeDispatched,1281,EventSeverity.COMMAND,Opcode 0xe00 dispatched to port 7
+2023-06-07 16:55:40,(2(0)-1686182140:137399),mathSender.COMMAND_RECV,3584,EventSeverity.ACTIVITY_LO,Math command received: 6.000000 MUL 3.000000
+2023-06-07 16:55:40,(2(0)-1686182140:137473),cmdDisp.OpCodeCompleted,1282,EventSeverity.COMMAND,Opcode 0xe00 completed
+2023-06-07 16:55:40,(2(0)-1686182140:589406),cmdDisp.OpCodeDispatched,1281,EventSeverity.COMMAND,Opcode 0xe00 dispatched to port 7
+2023-06-07 16:55:40,(2(0)-1686182140:589417),mathSender.COMMAND_RECV,3584,EventSeverity.ACTIVITY_LO,Math command received: 6.000000 MUL 3.000000
+2023-06-07 16:55:40,(2(0)-1686182140:589499),cmdDisp.OpCodeCompleted,1282,EventSeverity.COMMAND,Opcode 0xe00 completed
+2023-06-07 16:55:41,(2(0)-1686182141:121586),mathReceiver.OPERATION_PERFORMED,9985,EventSeverity.ACTIVITY_HI,MUL operation performed
+2023-06-07 16:55:41,(2(0)-1686182141:121665),mathReceiver.OPERATION_PERFORMED,9985,EventSeverity.ACTIVITY_HI,MUL operation performed
+2023-06-07 16:55:41,(2(0)-1686182141:121680),mathSender.RESULT,3585,EventSeverity.ACTIVITY_HI,Math result is 18.000000
+2023-06-07 16:55:41,(2(0)-1686182141:121747),mathSender.RESULT,3585,EventSeverity.ACTIVITY_HI,Math result is 18.000000
+2023-06-07 16:55:42,(2(0)-1686182142:908605),cmdDisp.OpCodeDispatched,1281,EventSeverity.COMMAND,Opcode 0xe00 dispatched to port 7
+2023-06-07 16:55:42,(2(0)-1686182142:908621),mathSender.COMMAND_RECV,3584,EventSeverity.ACTIVITY_LO,Math command received: 7.000000 MUL 3.000000
+2023-06-07 16:55:42,(2(0)-1686182142:908699),cmdDisp.OpCodeCompleted,1282,EventSeverity.COMMAND,Opcode 0xe00 completed
+2023-06-07 16:55:43,(2(0)-1686182143:67111),cmdDisp.OpCodeDispatched,1281,EventSeverity.COMMAND,Opcode 0xe00 dispatched to port 7
+2023-06-07 16:55:43,(2(0)-1686182143:67122),mathSender.COMMAND_RECV,3584,EventSeverity.ACTIVITY_LO,Math command received: 7.000000 MUL 3.000000
+2023-06-07 16:55:43,(2(0)-1686182143:67220),cmdDisp.OpCodeCompleted,1282,EventSeverity.COMMAND,Opcode 0xe00 completed
+2023-06-07 16:55:43,(2(0)-1686182143:127641),mathReceiver.OPERATION_PERFORMED,9985,EventSeverity.ACTIVITY_HI,MUL operation performed
+2023-06-07 16:55:43,(2(0)-1686182143:127775),mathReceiver.OPERATION_PERFORMED,9985,EventSeverity.ACTIVITY_HI,MUL operation performed
+2023-06-07 16:55:43,(2(0)-1686182143:127780),mathSender.RESULT,3585,EventSeverity.ACTIVITY_HI,Math result is 21.000000
+2023-06-07 16:55:43,(2(0)-1686182143:127955),mathSender.RESULT,3585,EventSeverity.ACTIVITY_HI,Math result is 21.000000
+2023-06-07 16:55:43,(2(0)-1686182143:218709),cmdDisp.OpCodeDispatched,1281,EventSeverity.COMMAND,Opcode 0xe00 dispatched to port 7
+2023-06-07 16:55:43,(2(0)-1686182143:218721),mathSender.COMMAND_RECV,3584,EventSeverity.ACTIVITY_LO,Math command received: 7.000000 MUL 3.000000
+2023-06-07 16:55:43,(2(0)-1686182143:218798),cmdDisp.OpCodeCompleted,1282,EventSeverity.COMMAND,Opcode 0xe00 completed
+2023-06-07 16:55:43,(2(0)-1686182143:383229),cmdDisp.OpCodeDispatched,1281,EventSeverity.COMMAND,Opcode 0xe00 dispatched to port 7
+2023-06-07 16:55:43,(2(0)-1686182143:383242),mathSender.COMMAND_RECV,3584,EventSeverity.ACTIVITY_LO,Math command received: 7.000000 MUL 3.000000
+2023-06-07 16:55:43,(2(0)-1686182143:383310),cmdDisp.OpCodeCompleted,1282,EventSeverity.COMMAND,Opcode 0xe00 completed
+2023-06-07 16:55:43,(2(0)-1686182143:549854),cmdDisp.OpCodeDispatched,1281,EventSeverity.COMMAND,Opcode 0xe00 dispatched to port 7
+2023-06-07 16:55:43,(2(0)-1686182143:549865),mathSender.COMMAND_RECV,3584,EventSeverity.ACTIVITY_LO,Math command received: 7.000000 MUL 3.000000
+2023-06-07 16:55:43,(2(0)-1686182143:549927),cmdDisp.OpCodeCompleted,1282,EventSeverity.COMMAND,Opcode 0xe00 completed
+2023-06-07 16:55:43,(2(0)-1686182143:703263),cmdDisp.OpCodeDispatched,1281,EventSeverity.COMMAND,Opcode 0xe00 dispatched to port 7
+2023-06-07 16:55:43,(2(0)-1686182143:703273),mathSender.COMMAND_RECV,3584,EventSeverity.ACTIVITY_LO,Math command received: 7.000000 MUL 3.000000
+2023-06-07 16:55:43,(2(0)-1686182143:703333),cmdDisp.OpCodeCompleted,1282,EventSeverity.COMMAND,Opcode 0xe00 completed
+2023-06-07 16:55:43,(2(0)-1686182143:884550),cmdDisp.OpCodeDispatched,1281,EventSeverity.COMMAND,Opcode 0xe00 dispatched to port 7
+2023-06-07 16:55:43,(2(0)-1686182143:884563),mathSender.COMMAND_RECV,3584,EventSeverity.ACTIVITY_LO,Math command received: 7.000000 MUL 3.000000
+2023-06-07 16:55:43,(2(0)-1686182143:884628),cmdDisp.OpCodeCompleted,1282,EventSeverity.COMMAND,Opcode 0xe00 completed
+2023-06-07 16:55:44,(2(0)-1686182144:132532),mathReceiver.OPERATION_PERFORMED,9985,EventSeverity.ACTIVITY_HI,MUL operation performed
+2023-06-07 16:55:44,(2(0)-1686182144:132589),mathReceiver.OPERATION_PERFORMED,9985,EventSeverity.ACTIVITY_HI,MUL operation performed
+2023-06-07 16:55:44,(2(0)-1686182144:132599),mathSender.RESULT,3585,EventSeverity.ACTIVITY_HI,Math result is 21.000000
+2023-06-07 16:55:44,(2(0)-1686182144:132609),mathReceiver.OPERATION_PERFORMED,9985,EventSeverity.ACTIVITY_HI,MUL operation performed
+2023-06-07 16:55:44,(2(0)-1686182144:132639),mathSender.RESULT,3585,EventSeverity.ACTIVITY_HI,Math result is 21.000000
+2023-06-07 16:55:44,(2(0)-1686182144:132661),mathReceiver.OPERATION_PERFORMED,9985,EventSeverity.ACTIVITY_HI,MUL operation performed
+2023-06-07 16:55:44,(2(0)-1686182144:132678),mathReceiver.OPERATION_PERFORMED,9985,EventSeverity.ACTIVITY_HI,MUL operation performed
+2023-06-07 16:55:44,(2(0)-1686182144:132697),mathSender.RESULT,3585,EventSeverity.ACTIVITY_HI,Math result is 21.000000
+2023-06-07 16:55:44,(2(0)-1686182144:132725),mathSender.RESULT,3585,EventSeverity.ACTIVITY_HI,Math result is 21.000000
+2023-06-07 16:55:44,(2(0)-1686182144:132748),mathSender.RESULT,3585,EventSeverity.ACTIVITY_HI,Math result is 21.000000
+2023-06-07 16:56:00,(2(0)-1686182160:872164),cmdDisp.OpCodeDispatched,1281,EventSeverity.COMMAND,Opcode 0xe00 dispatched to port 7
+2023-06-07 16:56:00,(2(0)-1686182160:872175),mathSender.COMMAND_RECV,3584,EventSeverity.ACTIVITY_LO,Math command received: 7.000000 MUL 3.000000
+2023-06-07 16:56:00,(2(0)-1686182160:872259),cmdDisp.OpCodeCompleted,1282,EventSeverity.COMMAND,Opcode 0xe00 completed
+2023-06-07 16:56:01,(2(0)-1686182161:188649),mathReceiver.OPERATION_PERFORMED,9985,EventSeverity.ACTIVITY_HI,MUL operation performed
+2023-06-07 16:56:01,(2(0)-1686182161:188765),mathSender.RESULT,3585,EventSeverity.ACTIVITY_HI,Math result is 21.000000
+2023-06-07 16:56:03,(2(0)-1686182163:319127),cmdDisp.OpCodeDispatched,1281,EventSeverity.COMMAND,Opcode 0xe00 dispatched to port 7
+2023-06-07 16:56:03,(2(0)-1686182163:319138),mathSender.COMMAND_RECV,3584,EventSeverity.ACTIVITY_LO,Math command received: 7.000000 MUL 3.000000
+2023-06-07 16:56:03,(2(0)-1686182163:319244),cmdDisp.OpCodeCompleted,1282,EventSeverity.COMMAND,Opcode 0xe00 completed
+2023-06-07 16:56:04,(2(0)-1686182164:203496),mathReceiver.OPERATION_PERFORMED,9985,EventSeverity.ACTIVITY_HI,MUL operation performed
+2023-06-07 16:56:04,(2(0)-1686182164:203678),mathSender.RESULT,3585,EventSeverity.ACTIVITY_HI,Math result is 21.000000
+2023-06-07 16:56:05,(2(0)-1686182165:316216),cmdDisp.OpCodeDispatched,1281,EventSeverity.COMMAND,Opcode 0xe00 dispatched to port 7
+2023-06-07 16:56:05,(2(0)-1686182165:316229),mathSender.COMMAND_RECV,3584,EventSeverity.ACTIVITY_LO,Math command received: 7.000000 MUL 3.000000
+2023-06-07 16:56:05,(2(0)-1686182165:316294),cmdDisp.OpCodeCompleted,1282,EventSeverity.COMMAND,Opcode 0xe00 completed
+2023-06-07 16:56:06,(2(0)-1686182166:211674),mathReceiver.OPERATION_PERFORMED,9985,EventSeverity.ACTIVITY_HI,MUL operation performed
+2023-06-07 16:56:06,(2(0)-1686182166:211820),mathSender.RESULT,3585,EventSeverity.ACTIVITY_HI,Math result is 21.000000

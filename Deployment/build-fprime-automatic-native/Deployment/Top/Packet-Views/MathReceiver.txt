@@ -1,2 +1,3 @@
 mathReceiver.OPERATION
 mathReceiver.FACTOR
+mathReceiver.NUMBER_OF_OPS

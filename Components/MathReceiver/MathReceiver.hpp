@@ -63,6 +63,10 @@ namespace MathModule {
 
       void parameterUpdated(FwPrmIdType id);
 
+      // step 2 
+      // Memember variables
+      U32 numMathOps; 
+
     PRIVATE:
 
       // ----------------------------------------------------------------------

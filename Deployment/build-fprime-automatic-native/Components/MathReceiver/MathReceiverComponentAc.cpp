@@ -1075,6 +1075,33 @@ namespace MathModule {
 
   }
 
+  void MathReceiverComponentBase ::
+    tlmWrite_NUMBER_OF_OPS(U32 arg, Fw::Time _tlmTime)
+  {
+    if (this->m_tlmOut_OutputPort[0].isConnected()) {
+      if (this->m_timeGetOut_OutputPort[0].isConnected() && _tlmTime ==  Fw::ZERO_TIME) {
+         this->m_timeGetOut_OutputPort[0].invoke( _tlmTime);
+      }
+      Fw::TlmBuffer _tlmBuff;
+      Fw::SerializeStatus _stat = _tlmBuff.serialize(arg);
+      FW_ASSERT(
+          _stat == Fw::FW_SERIALIZE_OK,
+          static_cast<FwAssertArgType>(_stat)
+      );
+
+      FwChanIdType _id;
+
+      _id = this->getIdBase() + CHANNELID_NUMBER_OF_OPS;
+
+      this->m_tlmOut_OutputPort[0].invoke(
+          _id,
+          _tlmTime,
+          _tlmBuff
+      );
+    }
+
+  }
+
   // ----------------------------------------------------------------------
   // Time
   // ----------------------------------------------------------------------

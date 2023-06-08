@@ -1013,6 +1013,7 @@
     <channel component="health" name="PingLateWarnings" id="0x2000" description="Number of overrun warnings" type="U32"/>
     <channel component="mathReceiver" name="OPERATION" id="0x2700" description="The operation" type="MathModule::MathOp"/>
     <channel component="mathReceiver" name="FACTOR" id="0x2701" description="Multiplication factor" type="F32"/>
+    <channel component="mathReceiver" name="NUMBER_OF_OPS" id="0x2702" description="Number of math operations" type="U32"/>
     <channel component="fileUplinkBufferManager" name="TotalBuffs" id="0x4400" description="The total buffers allocated" type="U32"/>
     <channel component="fileUplinkBufferManager" name="CurrBuffs" id="0x4401" description="The current number of allocated buffers" type="U32"/>
     <channel component="fileUplinkBufferManager" name="HiBuffs" id="0x4402" description="The high water mark of allocated buffers" type="U32"/>

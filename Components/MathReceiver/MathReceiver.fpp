@@ -108,6 +108,10 @@ module MathModule {
     @ Multiplication factor
     telemetry FACTOR: F32 id 1
 
+    # step 1
+    @ Number of math operations 
+    telemetry NUMBER_OF_OPS: U32 
+
   }
 
 }

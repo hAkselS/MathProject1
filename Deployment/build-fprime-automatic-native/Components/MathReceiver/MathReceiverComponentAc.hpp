@@ -743,6 +743,7 @@ namespace MathModule {
     enum {
       CHANNELID_OPERATION = 0x0, //!< Channel ID for OPERATION
       CHANNELID_FACTOR = 0x1, //!< Channel ID for FACTOR
+      CHANNELID_NUMBER_OF_OPS = 0x2, //!< Channel ID for NUMBER_OF_OPS
     };
 
   PROTECTED:
@@ -764,6 +765,14 @@ namespace MathModule {
     /* Multiplication factor */
     void tlmWrite_FACTOR(
         F32 arg /*!< The telemetry value*/,
+        Fw::Time _tlmTime=Fw::Time() /*!< Timestamp. Default: unspecified, request from getTime port*/
+    );
+
+    //! Write telemetry channel NUMBER_OF_OPS
+    //!
+    /* Number of math operations */
+    void tlmWrite_NUMBER_OF_OPS(
+        U32 arg /*!< The telemetry value*/,
         Fw::Time _tlmTime=Fw::Time() /*!< Timestamp. Default: unspecified, request from getTime port*/
     );
 
