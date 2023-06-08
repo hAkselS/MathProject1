@@ -49,6 +49,17 @@ namespace MathModule {
     private:
 
       // ----------------------------------------------------------------------
+      // Types
+      // ----------------------------------------------------------------------
+
+      enum class ThrottleState {
+        THROTTLED,
+        NOT_THROTTLED
+      };
+
+    private:
+
+      // ----------------------------------------------------------------------
       // Handlers for typed from ports
       // ----------------------------------------------------------------------
 
@@ -67,6 +78,10 @@ namespace MathModule {
       // Helper methods
       // ----------------------------------------------------------------------
 
+
+      F32 pickF32Value();
+
+      void setFactor( F32 factor, ThrottleState throttleState );
       //! Connect ports
       //!
       void connectPorts();
@@ -84,6 +99,8 @@ namespace MathModule {
       //! The component under test
       //!
       MathReceiver component;
+
+
 
   };
 
