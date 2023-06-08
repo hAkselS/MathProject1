@@ -5,10 +5,6 @@
 #include "Tester.hpp"
 #include "STest/Random/Random.hpp"
 
-TEST(Nominal, ToDo) {
-    MathModule::Tester tester;
-    tester.toDo();
-}
 
 TEST(Nominal, AddCommand) {
     MathModule::Tester tester;

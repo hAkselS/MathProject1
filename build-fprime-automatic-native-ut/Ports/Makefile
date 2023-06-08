@@ -199,30 +199,6 @@ Ports_impl/fast:
 	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut && $(MAKE) $(MAKESILENT) -f Ports/CMakeFiles/Ports_impl.dir/build.make Ports/CMakeFiles/Ports_impl.dir/build
 .PHONY : Ports_impl/fast
 
-MathOpPortAc.o: MathOpPortAc.cpp.o
-.PHONY : MathOpPortAc.o
-
-# target to build an object file
-MathOpPortAc.cpp.o:
-	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut && $(MAKE) $(MAKESILENT) -f Ports/CMakeFiles/Ports.dir/build.make Ports/CMakeFiles/Ports.dir/MathOpPortAc.cpp.o
-.PHONY : MathOpPortAc.cpp.o
-
-MathOpPortAc.i: MathOpPortAc.cpp.i
-.PHONY : MathOpPortAc.i
-
-# target to preprocess a source file
-MathOpPortAc.cpp.i:
-	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut && $(MAKE) $(MAKESILENT) -f Ports/CMakeFiles/Ports.dir/build.make Ports/CMakeFiles/Ports.dir/MathOpPortAc.cpp.i
-.PHONY : MathOpPortAc.cpp.i
-
-MathOpPortAc.s: MathOpPortAc.cpp.s
-.PHONY : MathOpPortAc.s
-
-# target to generate assembly for a file
-MathOpPortAc.cpp.s:
-	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut && $(MAKE) $(MAKESILENT) -f Ports/CMakeFiles/Ports.dir/build.make Ports/CMakeFiles/Ports.dir/MathOpPortAc.cpp.s
-.PHONY : MathOpPortAc.cpp.s
-
 MathResultPortAc.o: MathResultPortAc.cpp.o
 .PHONY : MathResultPortAc.o
 
@@ -247,6 +223,30 @@ MathResultPortAc.cpp.s:
 	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut && $(MAKE) $(MAKESILENT) -f Ports/CMakeFiles/Ports.dir/build.make Ports/CMakeFiles/Ports.dir/MathResultPortAc.cpp.s
 .PHONY : MathResultPortAc.cpp.s
 
+OpRequestPortAc.o: OpRequestPortAc.cpp.o
+.PHONY : OpRequestPortAc.o
+
+# target to build an object file
+OpRequestPortAc.cpp.o:
+	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut && $(MAKE) $(MAKESILENT) -f Ports/CMakeFiles/Ports.dir/build.make Ports/CMakeFiles/Ports.dir/OpRequestPortAc.cpp.o
+.PHONY : OpRequestPortAc.cpp.o
+
+OpRequestPortAc.i: OpRequestPortAc.cpp.i
+.PHONY : OpRequestPortAc.i
+
+# target to preprocess a source file
+OpRequestPortAc.cpp.i:
+	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut && $(MAKE) $(MAKESILENT) -f Ports/CMakeFiles/Ports.dir/build.make Ports/CMakeFiles/Ports.dir/OpRequestPortAc.cpp.i
+.PHONY : OpRequestPortAc.cpp.i
+
+OpRequestPortAc.s: OpRequestPortAc.cpp.s
+.PHONY : OpRequestPortAc.s
+
+# target to generate assembly for a file
+OpRequestPortAc.cpp.s:
+	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut && $(MAKE) $(MAKESILENT) -f Ports/CMakeFiles/Ports.dir/build.make Ports/CMakeFiles/Ports.dir/OpRequestPortAc.cpp.s
+.PHONY : OpRequestPortAc.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -262,12 +262,12 @@ help:
 	@echo "... test"
 	@echo "... Ports_impl"
 	@echo "... Ports"
-	@echo "... MathOpPortAc.o"
-	@echo "... MathOpPortAc.i"
-	@echo "... MathOpPortAc.s"
 	@echo "... MathResultPortAc.o"
 	@echo "... MathResultPortAc.i"
 	@echo "... MathResultPortAc.s"
+	@echo "... OpRequestPortAc.o"
+	@echo "... OpRequestPortAc.i"
+	@echo "... OpRequestPortAc.s"
 .PHONY : help
 
 

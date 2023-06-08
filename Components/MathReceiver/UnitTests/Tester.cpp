@@ -2,6 +2,7 @@
 // \title  MathReceiver.hpp
 // \author asloan
 // \brief  cpp file for MathReceiver test harness implementation class
+// \brief  SPAGHETTI CODE ALERT   
 // ======================================================================
 
 #include "Tester.hpp"
@@ -32,11 +33,6 @@ namespace MathModule {
   // Tests
   // ----------------------------------------------------------------------
 
-  void Tester ::
-    toDo()
-  {
-    // TODO
-  }
 
   // ----------------------------------------------------------------------
   // Handlers for typed from ports
@@ -154,12 +150,36 @@ void Tester ::
     // verify telemetry
 
     // check that one channel was written
-    ASSERT_TLM_SIZE(1);
+    ASSERT_TLM_SIZE(2);  //2 b/c of the channel I added
     // check that it was the op channel
     ASSERT_TLM_OPERATION_SIZE(1);
     // check for the correct value of the channel
     ASSERT_TLM_OPERATION(0, op);
 
+}
+
+
+// Tests 
+
+void Tester ::
+  testAdd()
+{
+    // Set the factor parameter by command
+    const F32 factor = pickF32Value();
+    this->setFactor(factor, ThrottleState::NOT_THROTTLED);
+    // Do the add operation
+    this->doMathOp(MathOp::ADD, factor);
+}
+
+void Tester ::
+  testSub()
+{
+    // Set the factor parameter by loading parameters
+    const F32 factor = pickF32Value();
+    this->paramSet_FACTOR(factor, Fw::ParamValid::VALID);
+    this->component.loadParameters();
+    // Do the operation
+    this->doMathOp(MathOp::SUB, factor);
 }
 
 } // end namespace MathModule

@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Ports_impl"
-  "MathOpPortAc.cpp"
-  "MathOpPortAc.hpp"
-  "MathOpPortAi.xml"
   "MathResultPortAc.cpp"
   "MathResultPortAc.hpp"
   "MathResultPortAi.xml"
+  "OpRequestPortAc.cpp"
+  "OpRequestPortAc.hpp"
+  "OpRequestPortAi.xml"
 )
 
 # Per-language clean rules from dependency scanning.

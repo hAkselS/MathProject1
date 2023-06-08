@@ -1876,6 +1876,10 @@
 /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Components/MathSender/CMakeFiles/install/strip.dir
 /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir
 /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Components/MathReceiver/CMakeFiles/Components_MathReceiver_impl.dir
+/Users/asloan/MathProject1/build-fprime-automatic-native-ut/Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir
+/Users/asloan/MathProject1/build-fprime-automatic-native-ut/Components/MathReceiver/CMakeFiles/Components_MathReceiver_check.dir
+/Users/asloan/MathProject1/build-fprime-automatic-native-ut/Components/MathReceiver/CMakeFiles/Components_MathReceiver_check_leak.dir
+/Users/asloan/MathProject1/build-fprime-automatic-native-ut/Components/MathReceiver/CMakeFiles/Components_MathReceiver_testimpl.dir
 /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Components/MathReceiver/CMakeFiles/test.dir
 /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Components/MathReceiver/CMakeFiles/edit_cache.dir
 /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Components/MathReceiver/CMakeFiles/rebuild_cache.dir

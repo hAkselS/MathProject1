@@ -69,46 +69,32 @@ include Ports/CMakeFiles/Ports.dir/progress.make
 # Include the compile flags for this target's objects.
 include Ports/CMakeFiles/Ports.dir/flags.make
 
-Ports/MathOpPortAi.xml: /Users/asloan/MathProject1/Ports/MathPorts.fpp
-Ports/MathOpPortAi.xml: lib/Darwin/libTypes.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating MathOpPortAi.xml, MathResultPortAi.xml"
+Ports/MathResultPortAi.xml: /Users/asloan/MathProject1/Ports/MathPorts.fpp
+Ports/MathResultPortAi.xml: lib/Darwin/libTypes.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating MathResultPortAi.xml, OpRequestPortAi.xml"
 	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports && /Users/asloan/MathProject1/venv/bin/fpp-to-xml -d /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports -i /Users/asloan/MathProject1/Types/MathTypes.fpp /Users/asloan/MathProject1/Ports/MathPorts.fpp -p /Users/asloan/MathProject1/fprime,/Users/asloan/MathProject1
 
-Ports/MathResultPortAi.xml: Ports/MathOpPortAi.xml
-	@$(CMAKE_COMMAND) -E touch_nocreate Ports/MathResultPortAi.xml
+Ports/OpRequestPortAi.xml: Ports/MathResultPortAi.xml
+	@$(CMAKE_COMMAND) -E touch_nocreate Ports/OpRequestPortAi.xml
 
-Ports/MathOpPortAc.cpp: /Users/asloan/MathProject1/Ports/MathPorts.fpp
-Ports/MathOpPortAc.cpp: lib/Darwin/libTypes.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating MathOpPortAc.cpp, MathOpPortAc.hpp, MathResultPortAc.cpp, MathResultPortAc.hpp"
+Ports/MathResultPortAc.cpp: /Users/asloan/MathProject1/Ports/MathPorts.fpp
+Ports/MathResultPortAc.cpp: lib/Darwin/libTypes.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating MathResultPortAc.cpp, MathResultPortAc.hpp, OpRequestPortAc.cpp, OpRequestPortAc.hpp"
 	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports && /Users/asloan/MathProject1/venv/bin/fpp-to-cpp -d /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports -i /Users/asloan/MathProject1/Types/MathTypes.fpp /Users/asloan/MathProject1/Ports/MathPorts.fpp -p /Users/asloan/MathProject1/fprime,/Users/asloan/MathProject1,/Users/asloan/MathProject1/build-fprime-automatic-native-ut
 
-Ports/MathOpPortAc.hpp: Ports/MathOpPortAc.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate Ports/MathOpPortAc.hpp
-
-Ports/MathResultPortAc.cpp: Ports/MathOpPortAc.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate Ports/MathResultPortAc.cpp
-
-Ports/MathResultPortAc.hpp: Ports/MathOpPortAc.cpp
+Ports/MathResultPortAc.hpp: Ports/MathResultPortAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate Ports/MathResultPortAc.hpp
 
-Ports/CMakeFiles/Ports.dir/MathOpPortAc.cpp.o: Ports/CMakeFiles/Ports.dir/flags.make
-Ports/CMakeFiles/Ports.dir/MathOpPortAc.cpp.o: Ports/MathOpPortAc.cpp
-Ports/CMakeFiles/Ports.dir/MathOpPortAc.cpp.o: Ports/CMakeFiles/Ports.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Ports/CMakeFiles/Ports.dir/MathOpPortAc.cpp.o"
-	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xb0a7d092 -DASSERT_RELATIVE_PATH='"build-fprime-automatic-native-ut/Ports/MathOpPortAc.cpp"' -MD -MT Ports/CMakeFiles/Ports.dir/MathOpPortAc.cpp.o -MF CMakeFiles/Ports.dir/MathOpPortAc.cpp.o.d -o CMakeFiles/Ports.dir/MathOpPortAc.cpp.o -c /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports/MathOpPortAc.cpp
+Ports/OpRequestPortAc.cpp: Ports/MathResultPortAc.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate Ports/OpRequestPortAc.cpp
 
-Ports/CMakeFiles/Ports.dir/MathOpPortAc.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ports.dir/MathOpPortAc.cpp.i"
-	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xb0a7d092 -DASSERT_RELATIVE_PATH='"build-fprime-automatic-native-ut/Ports/MathOpPortAc.cpp"' -E /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports/MathOpPortAc.cpp > CMakeFiles/Ports.dir/MathOpPortAc.cpp.i
-
-Ports/CMakeFiles/Ports.dir/MathOpPortAc.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ports.dir/MathOpPortAc.cpp.s"
-	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xb0a7d092 -DASSERT_RELATIVE_PATH='"build-fprime-automatic-native-ut/Ports/MathOpPortAc.cpp"' -S /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports/MathOpPortAc.cpp -o CMakeFiles/Ports.dir/MathOpPortAc.cpp.s
+Ports/OpRequestPortAc.hpp: Ports/MathResultPortAc.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate Ports/OpRequestPortAc.hpp
 
 Ports/CMakeFiles/Ports.dir/MathResultPortAc.cpp.o: Ports/CMakeFiles/Ports.dir/flags.make
 Ports/CMakeFiles/Ports.dir/MathResultPortAc.cpp.o: Ports/MathResultPortAc.cpp
 Ports/CMakeFiles/Ports.dir/MathResultPortAc.cpp.o: Ports/CMakeFiles/Ports.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Ports/CMakeFiles/Ports.dir/MathResultPortAc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Ports/CMakeFiles/Ports.dir/MathResultPortAc.cpp.o"
 	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xea8b1ad3 -DASSERT_RELATIVE_PATH='"build-fprime-automatic-native-ut/Ports/MathResultPortAc.cpp"' -MD -MT Ports/CMakeFiles/Ports.dir/MathResultPortAc.cpp.o -MF CMakeFiles/Ports.dir/MathResultPortAc.cpp.o.d -o CMakeFiles/Ports.dir/MathResultPortAc.cpp.o -c /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports/MathResultPortAc.cpp
 
 Ports/CMakeFiles/Ports.dir/MathResultPortAc.cpp.i: cmake_force
@@ -119,16 +105,30 @@ Ports/CMakeFiles/Ports.dir/MathResultPortAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ports.dir/MathResultPortAc.cpp.s"
 	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xea8b1ad3 -DASSERT_RELATIVE_PATH='"build-fprime-automatic-native-ut/Ports/MathResultPortAc.cpp"' -S /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports/MathResultPortAc.cpp -o CMakeFiles/Ports.dir/MathResultPortAc.cpp.s
 
+Ports/CMakeFiles/Ports.dir/OpRequestPortAc.cpp.o: Ports/CMakeFiles/Ports.dir/flags.make
+Ports/CMakeFiles/Ports.dir/OpRequestPortAc.cpp.o: Ports/OpRequestPortAc.cpp
+Ports/CMakeFiles/Ports.dir/OpRequestPortAc.cpp.o: Ports/CMakeFiles/Ports.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Ports/CMakeFiles/Ports.dir/OpRequestPortAc.cpp.o"
+	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x4a63c0f7 -DASSERT_RELATIVE_PATH='"build-fprime-automatic-native-ut/Ports/OpRequestPortAc.cpp"' -MD -MT Ports/CMakeFiles/Ports.dir/OpRequestPortAc.cpp.o -MF CMakeFiles/Ports.dir/OpRequestPortAc.cpp.o.d -o CMakeFiles/Ports.dir/OpRequestPortAc.cpp.o -c /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports/OpRequestPortAc.cpp
+
+Ports/CMakeFiles/Ports.dir/OpRequestPortAc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ports.dir/OpRequestPortAc.cpp.i"
+	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x4a63c0f7 -DASSERT_RELATIVE_PATH='"build-fprime-automatic-native-ut/Ports/OpRequestPortAc.cpp"' -E /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports/OpRequestPortAc.cpp > CMakeFiles/Ports.dir/OpRequestPortAc.cpp.i
+
+Ports/CMakeFiles/Ports.dir/OpRequestPortAc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ports.dir/OpRequestPortAc.cpp.s"
+	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x4a63c0f7 -DASSERT_RELATIVE_PATH='"build-fprime-automatic-native-ut/Ports/OpRequestPortAc.cpp"' -S /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports/OpRequestPortAc.cpp -o CMakeFiles/Ports.dir/OpRequestPortAc.cpp.s
+
 # Object files for target Ports
 Ports_OBJECTS = \
-"CMakeFiles/Ports.dir/MathOpPortAc.cpp.o" \
-"CMakeFiles/Ports.dir/MathResultPortAc.cpp.o"
+"CMakeFiles/Ports.dir/MathResultPortAc.cpp.o" \
+"CMakeFiles/Ports.dir/OpRequestPortAc.cpp.o"
 
 # External object files for target Ports
 Ports_EXTERNAL_OBJECTS =
 
-lib/Darwin/libPorts.a: Ports/CMakeFiles/Ports.dir/MathOpPortAc.cpp.o
 lib/Darwin/libPorts.a: Ports/CMakeFiles/Ports.dir/MathResultPortAc.cpp.o
+lib/Darwin/libPorts.a: Ports/CMakeFiles/Ports.dir/OpRequestPortAc.cpp.o
 lib/Darwin/libPorts.a: Ports/CMakeFiles/Ports.dir/build.make
 lib/Darwin/libPorts.a: Ports/CMakeFiles/Ports.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../lib/Darwin/libPorts.a"
@@ -143,12 +143,12 @@ Ports/CMakeFiles/Ports.dir/clean:
 	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports && $(CMAKE_COMMAND) -P CMakeFiles/Ports.dir/cmake_clean.cmake
 .PHONY : Ports/CMakeFiles/Ports.dir/clean
 
-Ports/CMakeFiles/Ports.dir/depend: Ports/MathOpPortAc.cpp
-Ports/CMakeFiles/Ports.dir/depend: Ports/MathOpPortAc.hpp
-Ports/CMakeFiles/Ports.dir/depend: Ports/MathOpPortAi.xml
 Ports/CMakeFiles/Ports.dir/depend: Ports/MathResultPortAc.cpp
 Ports/CMakeFiles/Ports.dir/depend: Ports/MathResultPortAc.hpp
 Ports/CMakeFiles/Ports.dir/depend: Ports/MathResultPortAi.xml
+Ports/CMakeFiles/Ports.dir/depend: Ports/OpRequestPortAc.cpp
+Ports/CMakeFiles/Ports.dir/depend: Ports/OpRequestPortAc.hpp
+Ports/CMakeFiles/Ports.dir/depend: Ports/OpRequestPortAi.xml
 	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/asloan/MathProject1 /Users/asloan/MathProject1/Ports /Users/asloan/MathProject1/build-fprime-automatic-native-ut /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports/CMakeFiles/Ports.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Ports/CMakeFiles/Ports.dir/depend
 

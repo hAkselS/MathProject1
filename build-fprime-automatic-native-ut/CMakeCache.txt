@@ -138,9 +138,6 @@ CMAKE_INSTALL_NAME_TOOL:FILEPATH=/usr/bin/install_name_tool
 //C header files for non-gcc (/usr/include)
 CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
 
-//Install dir
-CMAKE_INSTALL_PREFIX:PATH=/Users/asloan/MathProject1/build-artifacts
-
 //Run-time variable data (LOCALSTATEDIR/run)
 CMAKE_INSTALL_RUNSTATEDIR:PATH=
 
@@ -581,6 +578,7 @@ CMAKE_INSTALL_MANDIR-ADVANCED:INTERNAL=1
 CMAKE_INSTALL_NAME_TOOL-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_INSTALL_OLDINCLUDEDIR
 CMAKE_INSTALL_OLDINCLUDEDIR-ADVANCED:INTERNAL=1
+CMAKE_INSTALL_PREFIX:INTERNAL=/Users/asloan/MathProject1/build-artifacts
 //Original value of CMAKE_INSTALL_PREFIX from settings.ini
 CMAKE_INSTALL_PREFIX_INI_:INTERNAL=/Users/asloan/MathProject1/build-artifacts
 //ADVANCED property for variable: CMAKE_INSTALL_RUNSTATEDIR
@@ -710,8 +708,6 @@ _Python_EXECUTABLE:INTERNAL=/Users/asloan/MathProject1/venv/bin/python3.9
 //Python Properties
 _Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;9;6;64;;cpython-39-darwin;abi3;/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9;/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9;/Users/asloan/MathProject1/venv/lib/python3.9/site-packages;/Users/asloan/MathProject1/venv/lib/python3.9/site-packages
 _Python_INTERPRETER_SIGNATURE:INTERNAL=b9ab0fd600bb1ad5353825e191362c3f
-//Interpreter reason failure
-_Python_Interpreter_REASON_FAILURE:INTERNAL=
 //NumPy reason failure
 _Python_NumPy_REASON_FAILURE:INTERNAL=
 cmake_package_name:INTERNAL=GTest

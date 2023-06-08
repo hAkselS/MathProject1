@@ -140,12 +140,27 @@ Components_MathReceiver/fast:
 	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan && $(MAKE) $(MAKESILENT) -f Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir/build.make Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir/build
 .PHONY : Components_MathReceiver/fast
 
+# Convenience name for target.
+Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/rule:
+	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/rule
+.PHONY : Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/rule
+
+# Convenience name for target.
+Components_MathReceiver_ut_exe: Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/rule
+.PHONY : Components_MathReceiver_ut_exe
+
+# fast build rule for target.
+Components_MathReceiver_ut_exe/fast:
+	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan && $(MAKE) $(MAKESILENT) -f Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/build.make Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/build
+.PHONY : Components_MathReceiver_ut_exe/fast
+
 __/__/fprime/cmake/empty.o: __/__/fprime/cmake/empty.cpp.o
 .PHONY : __/__/fprime/cmake/empty.o
 
 # target to build an object file
 __/__/fprime/cmake/empty.cpp.o:
 	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan && $(MAKE) $(MAKESILENT) -f Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir/build.make Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir/__/__/fprime/cmake/empty.cpp.o
+	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan && $(MAKE) $(MAKESILENT) -f Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/build.make Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/__/__/fprime/cmake/empty.cpp.o
 .PHONY : __/__/fprime/cmake/empty.cpp.o
 
 __/__/fprime/cmake/empty.i: __/__/fprime/cmake/empty.cpp.i
@@ -154,6 +169,7 @@ __/__/fprime/cmake/empty.i: __/__/fprime/cmake/empty.cpp.i
 # target to preprocess a source file
 __/__/fprime/cmake/empty.cpp.i:
 	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan && $(MAKE) $(MAKESILENT) -f Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir/build.make Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir/__/__/fprime/cmake/empty.cpp.i
+	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan && $(MAKE) $(MAKESILENT) -f Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/build.make Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/__/__/fprime/cmake/empty.cpp.i
 .PHONY : __/__/fprime/cmake/empty.cpp.i
 
 __/__/fprime/cmake/empty.s: __/__/fprime/cmake/empty.cpp.s
@@ -162,6 +178,7 @@ __/__/fprime/cmake/empty.s: __/__/fprime/cmake/empty.cpp.s
 # target to generate assembly for a file
 __/__/fprime/cmake/empty.cpp.s:
 	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan && $(MAKE) $(MAKESILENT) -f Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir/build.make Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir/__/__/fprime/cmake/empty.cpp.s
+	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan && $(MAKE) $(MAKESILENT) -f Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/build.make Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/__/__/fprime/cmake/empty.cpp.s
 .PHONY : __/__/fprime/cmake/empty.cpp.s
 
 # Help Target
@@ -174,6 +191,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... Components_MathReceiver"
+	@echo "... Components_MathReceiver_ut_exe"
 	@echo "... __/__/fprime/cmake/empty.o"
 	@echo "... __/__/fprime/cmake/empty.i"
 	@echo "... __/__/fprime/cmake/empty.s"

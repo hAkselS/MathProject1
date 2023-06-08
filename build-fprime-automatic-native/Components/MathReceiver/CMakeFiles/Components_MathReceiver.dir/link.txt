@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../lib/Darwin/libComponents_MathReceiver.a CMakeFiles/Components_MathReceiver.dir/MathReceiver.cpp.o CMakeFiles/Components_MathReceiver.dir/MathReceiverComponentAc.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../lib/Darwin/libComponents_MathReceiver.a

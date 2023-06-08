@@ -1,0 +1,31 @@
+Start testing: Jun 08 14:33 PDT
+----------------------------------------------------------
+1/1 Testing: Components_MathReceiver_ut_exe
+1/1 Test: Components_MathReceiver_ut_exe
+Command: "/Users/asloan/MathProject1/build-fprime-automatic-native-ut/bin/Darwin/Components_MathReceiver_ut_exe"
+Directory: /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Components/MathReceiver
+"Components_MathReceiver_ut_exe" start time: Jun 08 14:33 PDT
+Output:
+----------------------------------------------------------
+[STest::Random] Generated seed 902860 from system time
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from Nominal
+[ RUN      ] Nominal.AddCommand
+[       OK ] Nominal.AddCommand (2 ms)
+[ RUN      ] Nominal.SubCommand
+[       OK ] Nominal.SubCommand (0 ms)
+[----------] 2 tests from Nominal (2 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (2 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   1.04 sec
+----------------------------------------------------------
+Test Passed.
+"Components_MathReceiver_ut_exe" end time: Jun 08 14:33 PDT
+"Components_MathReceiver_ut_exe" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Jun 08 14:33 PDT

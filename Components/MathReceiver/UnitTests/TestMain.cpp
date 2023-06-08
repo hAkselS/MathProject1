@@ -5,9 +5,14 @@
 #include "Tester.hpp"
 #include "STest/Random/Random.hpp"
 
-TEST(Nominal, ToDo) {
+TEST(Nominal, AddCommand) {
     MathModule::Tester tester;
-    tester.toDo();
+    tester.testAdd();
+}
+
+TEST(Nominal, SubCommand) {
+    MathModule::Tester tester;
+    tester.testSub();
 }
 
 int main(int argc, char **argv) {

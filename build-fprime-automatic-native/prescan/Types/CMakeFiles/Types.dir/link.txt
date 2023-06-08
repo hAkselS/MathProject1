@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../lib/Darwin/libTypes.a CMakeFiles/Types.dir/__/fprime/cmake/empty.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../lib/Darwin/libTypes.a

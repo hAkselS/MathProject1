@@ -142,6 +142,7 @@ clean: Components/MathReceiver/clean
 
 # Recursive "all" directory target.
 Components/MathReceiver/all: Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir/all
+Components/MathReceiver/all: Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/all
 .PHONY : Components/MathReceiver/all
 
 # Recursive "preinstall" directory target.
@@ -150,6 +151,7 @@ Components/MathReceiver/preinstall:
 
 # Recursive "clean" directory target.
 Components/MathReceiver/clean: Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir/clean
+Components/MathReceiver/clean: Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/clean
 .PHONY : Components/MathReceiver/clean
 
 #=============================================================================
@@ -4633,12 +4635,12 @@ F-Prime/Autocoders/Python/test/event_multi_inst/CMakeFiles/Autocoders_Python_tes
 F-Prime/Autocoders/Python/test/event_string/CMakeFiles/Autocoders_Python_test_event_string.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/event_string/CMakeFiles/Autocoders_Python_test_event_string.dir/build.make F-Prime/Autocoders/Python/test/event_string/CMakeFiles/Autocoders_Python_test_event_string.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/event_string/CMakeFiles/Autocoders_Python_test_event_string.dir/build.make F-Prime/Autocoders/Python/test/event_string/CMakeFiles/Autocoders_Python_test_event_string.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=13 "Built target Autocoders_Python_test_event_string"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Autocoders_Python_test_event_string"
 .PHONY : F-Prime/Autocoders/Python/test/event_string/CMakeFiles/Autocoders_Python_test_event_string.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Autocoders/Python/test/event_string/CMakeFiles/Autocoders_Python_test_event_string.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Autocoders/Python/test/event_string/CMakeFiles/Autocoders_Python_test_event_string.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Autocoders/Python/test/event_string/CMakeFiles/Autocoders_Python_test_event_string.dir/rule
@@ -4659,12 +4661,12 @@ F-Prime/Autocoders/Python/test/event_string/CMakeFiles/Autocoders_Python_test_ev
 F-Prime/Autocoders/Python/test/event_string/CMakeFiles/Autocoders_Python_test_event_string_ut_exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/event_string/CMakeFiles/Autocoders_Python_test_event_string_ut_exe.dir/build.make F-Prime/Autocoders/Python/test/event_string/CMakeFiles/Autocoders_Python_test_event_string_ut_exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/event_string/CMakeFiles/Autocoders_Python_test_event_string_ut_exe.dir/build.make F-Prime/Autocoders/Python/test/event_string/CMakeFiles/Autocoders_Python_test_event_string_ut_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Autocoders_Python_test_event_string_ut_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=13 "Built target Autocoders_Python_test_event_string_ut_exe"
 .PHONY : F-Prime/Autocoders/Python/test/event_string/CMakeFiles/Autocoders_Python_test_event_string_ut_exe.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Autocoders/Python/test/event_string/CMakeFiles/Autocoders_Python_test_event_string_ut_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Autocoders/Python/test/event_string/CMakeFiles/Autocoders_Python_test_event_string_ut_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Autocoders/Python/test/event_string/CMakeFiles/Autocoders_Python_test_event_string_ut_exe.dir/rule
@@ -5075,12 +5077,12 @@ F-Prime/Autocoders/Python/test/main/CMakeFiles/Autocoders_Python_test_main.dir/c
 F-Prime/Autocoders/Python/test/noargport/CMakeFiles/Autocoders_Python_test_noargport.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/noargport/CMakeFiles/Autocoders_Python_test_noargport.dir/build.make F-Prime/Autocoders/Python/test/noargport/CMakeFiles/Autocoders_Python_test_noargport.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/noargport/CMakeFiles/Autocoders_Python_test_noargport.dir/build.make F-Prime/Autocoders/Python/test/noargport/CMakeFiles/Autocoders_Python_test_noargport.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=18 "Built target Autocoders_Python_test_noargport"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Autocoders_Python_test_noargport"
 .PHONY : F-Prime/Autocoders/Python/test/noargport/CMakeFiles/Autocoders_Python_test_noargport.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Autocoders/Python/test/noargport/CMakeFiles/Autocoders_Python_test_noargport.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Autocoders/Python/test/noargport/CMakeFiles/Autocoders_Python_test_noargport.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Autocoders/Python/test/noargport/CMakeFiles/Autocoders_Python_test_noargport.dir/rule
@@ -5101,12 +5103,12 @@ F-Prime/Autocoders/Python/test/noargport/CMakeFiles/Autocoders_Python_test_noarg
 F-Prime/Autocoders/Python/test/noargport/CMakeFiles/Autocoders_Python_test_noargport_ut_exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/noargport/CMakeFiles/Autocoders_Python_test_noargport_ut_exe.dir/build.make F-Prime/Autocoders/Python/test/noargport/CMakeFiles/Autocoders_Python_test_noargport_ut_exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/noargport/CMakeFiles/Autocoders_Python_test_noargport_ut_exe.dir/build.make F-Prime/Autocoders/Python/test/noargport/CMakeFiles/Autocoders_Python_test_noargport_ut_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Autocoders_Python_test_noargport_ut_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=18 "Built target Autocoders_Python_test_noargport_ut_exe"
 .PHONY : F-Prime/Autocoders/Python/test/noargport/CMakeFiles/Autocoders_Python_test_noargport_ut_exe.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Autocoders/Python/test/noargport/CMakeFiles/Autocoders_Python_test_noargport_ut_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Autocoders/Python/test/noargport/CMakeFiles/Autocoders_Python_test_noargport_ut_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Autocoders/Python/test/noargport/CMakeFiles/Autocoders_Python_test_noargport_ut_exe.dir/rule
@@ -5205,12 +5207,12 @@ F-Prime/Autocoders/Python/test/param_multi_inst/CMakeFiles/Autocoders_Python_tes
 F-Prime/Autocoders/Python/test/param_multi_inst/CMakeFiles/Autocoders_Python_test_param_multi_inst_ut_exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/param_multi_inst/CMakeFiles/Autocoders_Python_test_param_multi_inst_ut_exe.dir/build.make F-Prime/Autocoders/Python/test/param_multi_inst/CMakeFiles/Autocoders_Python_test_param_multi_inst_ut_exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/param_multi_inst/CMakeFiles/Autocoders_Python_test_param_multi_inst_ut_exe.dir/build.make F-Prime/Autocoders/Python/test/param_multi_inst/CMakeFiles/Autocoders_Python_test_param_multi_inst_ut_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=21 "Built target Autocoders_Python_test_param_multi_inst_ut_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Autocoders_Python_test_param_multi_inst_ut_exe"
 .PHONY : F-Prime/Autocoders/Python/test/param_multi_inst/CMakeFiles/Autocoders_Python_test_param_multi_inst_ut_exe.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Autocoders/Python/test/param_multi_inst/CMakeFiles/Autocoders_Python_test_param_multi_inst_ut_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Autocoders/Python/test/param_multi_inst/CMakeFiles/Autocoders_Python_test_param_multi_inst_ut_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Autocoders/Python/test/param_multi_inst/CMakeFiles/Autocoders_Python_test_param_multi_inst_ut_exe.dir/rule
@@ -5231,12 +5233,12 @@ F-Prime/Autocoders/Python/test/param_multi_inst/CMakeFiles/Autocoders_Python_tes
 F-Prime/Autocoders/Python/test/param_string/CMakeFiles/Autocoders_Python_test_param_string.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/param_string/CMakeFiles/Autocoders_Python_test_param_string.dir/build.make F-Prime/Autocoders/Python/test/param_string/CMakeFiles/Autocoders_Python_test_param_string.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/param_string/CMakeFiles/Autocoders_Python_test_param_string.dir/build.make F-Prime/Autocoders/Python/test/param_string/CMakeFiles/Autocoders_Python_test_param_string.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Autocoders_Python_test_param_string"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=21 "Built target Autocoders_Python_test_param_string"
 .PHONY : F-Prime/Autocoders/Python/test/param_string/CMakeFiles/Autocoders_Python_test_param_string.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Autocoders/Python/test/param_string/CMakeFiles/Autocoders_Python_test_param_string.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Autocoders/Python/test/param_string/CMakeFiles/Autocoders_Python_test_param_string.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Autocoders/Python/test/param_string/CMakeFiles/Autocoders_Python_test_param_string.dir/rule
@@ -5621,12 +5623,12 @@ F-Prime/Autocoders/Python/test/port_nogen/CMakeFiles/Autocoders_Python_test_port
 F-Prime/Autocoders/Python/test/port_return_type/CMakeFiles/Autocoders_Python_test_port_return_type.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/port_return_type/CMakeFiles/Autocoders_Python_test_port_return_type.dir/build.make F-Prime/Autocoders/Python/test/port_return_type/CMakeFiles/Autocoders_Python_test_port_return_type.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/port_return_type/CMakeFiles/Autocoders_Python_test_port_return_type.dir/build.make F-Prime/Autocoders/Python/test/port_return_type/CMakeFiles/Autocoders_Python_test_port_return_type.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=26 "Built target Autocoders_Python_test_port_return_type"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Autocoders_Python_test_port_return_type"
 .PHONY : F-Prime/Autocoders/Python/test/port_return_type/CMakeFiles/Autocoders_Python_test_port_return_type.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Autocoders/Python/test/port_return_type/CMakeFiles/Autocoders_Python_test_port_return_type.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Autocoders/Python/test/port_return_type/CMakeFiles/Autocoders_Python_test_port_return_type.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Autocoders/Python/test/port_return_type/CMakeFiles/Autocoders_Python_test_port_return_type.dir/rule
@@ -5647,12 +5649,12 @@ F-Prime/Autocoders/Python/test/port_return_type/CMakeFiles/Autocoders_Python_tes
 F-Prime/Autocoders/Python/test/queued1/CMakeFiles/Autocoders_Python_test_queued1.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/queued1/CMakeFiles/Autocoders_Python_test_queued1.dir/build.make F-Prime/Autocoders/Python/test/queued1/CMakeFiles/Autocoders_Python_test_queued1.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/queued1/CMakeFiles/Autocoders_Python_test_queued1.dir/build.make F-Prime/Autocoders/Python/test/queued1/CMakeFiles/Autocoders_Python_test_queued1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Autocoders_Python_test_queued1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=26 "Built target Autocoders_Python_test_queued1"
 .PHONY : F-Prime/Autocoders/Python/test/queued1/CMakeFiles/Autocoders_Python_test_queued1.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Autocoders/Python/test/queued1/CMakeFiles/Autocoders_Python_test_queued1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Autocoders/Python/test/queued1/CMakeFiles/Autocoders_Python_test_queued1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Autocoders/Python/test/queued1/CMakeFiles/Autocoders_Python_test_queued1.dir/rule
@@ -5803,12 +5805,12 @@ F-Prime/Autocoders/Python/test/serialize_stringbuffer/CMakeFiles/Autocoders_Pyth
 F-Prime/Autocoders/Python/test/serialize_user/CMakeFiles/Autocoders_Python_test_serialize_user.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/serialize_user/CMakeFiles/Autocoders_Python_test_serialize_user.dir/build.make F-Prime/Autocoders/Python/test/serialize_user/CMakeFiles/Autocoders_Python_test_serialize_user.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/serialize_user/CMakeFiles/Autocoders_Python_test_serialize_user.dir/build.make F-Prime/Autocoders/Python/test/serialize_user/CMakeFiles/Autocoders_Python_test_serialize_user.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=31 "Built target Autocoders_Python_test_serialize_user"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Autocoders_Python_test_serialize_user"
 .PHONY : F-Prime/Autocoders/Python/test/serialize_user/CMakeFiles/Autocoders_Python_test_serialize_user.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Autocoders/Python/test/serialize_user/CMakeFiles/Autocoders_Python_test_serialize_user.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Autocoders/Python/test/serialize_user/CMakeFiles/Autocoders_Python_test_serialize_user.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Autocoders/Python/test/serialize_user/CMakeFiles/Autocoders_Python_test_serialize_user.dir/rule
@@ -5829,12 +5831,12 @@ F-Prime/Autocoders/Python/test/serialize_user/CMakeFiles/Autocoders_Python_test_
 F-Prime/Autocoders/Python/test/serialize_user/CMakeFiles/Autocoders_Python_test_serialize_user_ut_exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/serialize_user/CMakeFiles/Autocoders_Python_test_serialize_user_ut_exe.dir/build.make F-Prime/Autocoders/Python/test/serialize_user/CMakeFiles/Autocoders_Python_test_serialize_user_ut_exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/serialize_user/CMakeFiles/Autocoders_Python_test_serialize_user_ut_exe.dir/build.make F-Prime/Autocoders/Python/test/serialize_user/CMakeFiles/Autocoders_Python_test_serialize_user_ut_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Autocoders_Python_test_serialize_user_ut_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=31 "Built target Autocoders_Python_test_serialize_user_ut_exe"
 .PHONY : F-Prime/Autocoders/Python/test/serialize_user/CMakeFiles/Autocoders_Python_test_serialize_user_ut_exe.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Autocoders/Python/test/serialize_user/CMakeFiles/Autocoders_Python_test_serialize_user_ut_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Autocoders/Python/test/serialize_user/CMakeFiles/Autocoders_Python_test_serialize_user_ut_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Autocoders/Python/test/serialize_user/CMakeFiles/Autocoders_Python_test_serialize_user_ut_exe.dir/rule
@@ -6167,12 +6169,12 @@ F-Prime/Autocoders/Python/test/telem_tester/CMakeFiles/Autocoders_Python_test_te
 F-Prime/Autocoders/Python/test/testgen/CMakeFiles/Autocoders_Python_test_testgen.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/testgen/CMakeFiles/Autocoders_Python_test_testgen.dir/build.make F-Prime/Autocoders/Python/test/testgen/CMakeFiles/Autocoders_Python_test_testgen.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/testgen/CMakeFiles/Autocoders_Python_test_testgen.dir/build.make F-Prime/Autocoders/Python/test/testgen/CMakeFiles/Autocoders_Python_test_testgen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=34 "Built target Autocoders_Python_test_testgen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Autocoders_Python_test_testgen"
 .PHONY : F-Prime/Autocoders/Python/test/testgen/CMakeFiles/Autocoders_Python_test_testgen.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Autocoders/Python/test/testgen/CMakeFiles/Autocoders_Python_test_testgen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Autocoders/Python/test/testgen/CMakeFiles/Autocoders_Python_test_testgen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Autocoders/Python/test/testgen/CMakeFiles/Autocoders_Python_test_testgen.dir/rule
@@ -6193,12 +6195,12 @@ F-Prime/Autocoders/Python/test/testgen/CMakeFiles/Autocoders_Python_test_testgen
 F-Prime/Autocoders/Python/test/testgen/CMakeFiles/Autocoders_Python_test_testgen_ut_exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/testgen/CMakeFiles/Autocoders_Python_test_testgen_ut_exe.dir/build.make F-Prime/Autocoders/Python/test/testgen/CMakeFiles/Autocoders_Python_test_testgen_ut_exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/testgen/CMakeFiles/Autocoders_Python_test_testgen_ut_exe.dir/build.make F-Prime/Autocoders/Python/test/testgen/CMakeFiles/Autocoders_Python_test_testgen_ut_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Autocoders_Python_test_testgen_ut_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=34 "Built target Autocoders_Python_test_testgen_ut_exe"
 .PHONY : F-Prime/Autocoders/Python/test/testgen/CMakeFiles/Autocoders_Python_test_testgen_ut_exe.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Autocoders/Python/test/testgen/CMakeFiles/Autocoders_Python_test_testgen_ut_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Autocoders/Python/test/testgen/CMakeFiles/Autocoders_Python_test_testgen_ut_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Autocoders/Python/test/testgen/CMakeFiles/Autocoders_Python_test_testgen_ut_exe.dir/rule
@@ -6297,12 +6299,12 @@ F-Prime/Autocoders/Python/test/time_tester/CMakeFiles/Autocoders_Python_test_tim
 F-Prime/Autocoders/Python/test/time_tester/CMakeFiles/Autocoders_Python_test_time_tester_ut_exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/time_tester/CMakeFiles/Autocoders_Python_test_time_tester_ut_exe.dir/build.make F-Prime/Autocoders/Python/test/time_tester/CMakeFiles/Autocoders_Python_test_time_tester_ut_exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/time_tester/CMakeFiles/Autocoders_Python_test_time_tester_ut_exe.dir/build.make F-Prime/Autocoders/Python/test/time_tester/CMakeFiles/Autocoders_Python_test_time_tester_ut_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=36 "Built target Autocoders_Python_test_time_tester_ut_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Autocoders_Python_test_time_tester_ut_exe"
 .PHONY : F-Prime/Autocoders/Python/test/time_tester/CMakeFiles/Autocoders_Python_test_time_tester_ut_exe.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Autocoders/Python/test/time_tester/CMakeFiles/Autocoders_Python_test_time_tester_ut_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Autocoders/Python/test/time_tester/CMakeFiles/Autocoders_Python_test_time_tester_ut_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Autocoders/Python/test/time_tester/CMakeFiles/Autocoders_Python_test_time_tester_ut_exe.dir/rule
@@ -6401,12 +6403,12 @@ F-Prime/Autocoders/Python/test/tlm_multi_inst/CMakeFiles/Autocoders_Python_test_
 F-Prime/Autocoders/Python/test/tlm_multi_inst/CMakeFiles/Autocoders_Python_test_tlm_multi_inst_ut_exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/tlm_multi_inst/CMakeFiles/Autocoders_Python_test_tlm_multi_inst_ut_exe.dir/build.make F-Prime/Autocoders/Python/test/tlm_multi_inst/CMakeFiles/Autocoders_Python_test_tlm_multi_inst_ut_exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/tlm_multi_inst/CMakeFiles/Autocoders_Python_test_tlm_multi_inst_ut_exe.dir/build.make F-Prime/Autocoders/Python/test/tlm_multi_inst/CMakeFiles/Autocoders_Python_test_tlm_multi_inst_ut_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=39 "Built target Autocoders_Python_test_tlm_multi_inst_ut_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Autocoders_Python_test_tlm_multi_inst_ut_exe"
 .PHONY : F-Prime/Autocoders/Python/test/tlm_multi_inst/CMakeFiles/Autocoders_Python_test_tlm_multi_inst_ut_exe.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Autocoders/Python/test/tlm_multi_inst/CMakeFiles/Autocoders_Python_test_tlm_multi_inst_ut_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Autocoders/Python/test/tlm_multi_inst/CMakeFiles/Autocoders_Python_test_tlm_multi_inst_ut_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Autocoders/Python/test/tlm_multi_inst/CMakeFiles/Autocoders_Python_test_tlm_multi_inst_ut_exe.dir/rule
@@ -6427,12 +6429,12 @@ F-Prime/Autocoders/Python/test/tlm_multi_inst/CMakeFiles/Autocoders_Python_test_
 F-Prime/Autocoders/Python/test/tlm_onchange/CMakeFiles/Autocoders_Python_test_tlm_onchange.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/tlm_onchange/CMakeFiles/Autocoders_Python_test_tlm_onchange.dir/build.make F-Prime/Autocoders/Python/test/tlm_onchange/CMakeFiles/Autocoders_Python_test_tlm_onchange.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/tlm_onchange/CMakeFiles/Autocoders_Python_test_tlm_onchange.dir/build.make F-Prime/Autocoders/Python/test/tlm_onchange/CMakeFiles/Autocoders_Python_test_tlm_onchange.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Autocoders_Python_test_tlm_onchange"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=39 "Built target Autocoders_Python_test_tlm_onchange"
 .PHONY : F-Prime/Autocoders/Python/test/tlm_onchange/CMakeFiles/Autocoders_Python_test_tlm_onchange.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Autocoders/Python/test/tlm_onchange/CMakeFiles/Autocoders_Python_test_tlm_onchange.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Autocoders/Python/test/tlm_onchange/CMakeFiles/Autocoders_Python_test_tlm_onchange.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Autocoders/Python/test/tlm_onchange/CMakeFiles/Autocoders_Python_test_tlm_onchange.dir/rule
@@ -6531,12 +6533,12 @@ F-Prime/Autocoders/Python/test/tlm_string/CMakeFiles/Autocoders_Python_test_tlm_
 F-Prime/Autocoders/Python/test/tlm1/CMakeFiles/Autocoders_Python_test_tlm1.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/tlm1/CMakeFiles/Autocoders_Python_test_tlm1.dir/build.make F-Prime/Autocoders/Python/test/tlm1/CMakeFiles/Autocoders_Python_test_tlm1.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Autocoders/Python/test/tlm1/CMakeFiles/Autocoders_Python_test_tlm1.dir/build.make F-Prime/Autocoders/Python/test/tlm1/CMakeFiles/Autocoders_Python_test_tlm1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Autocoders_Python_test_tlm1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=36 "Built target Autocoders_Python_test_tlm1"
 .PHONY : F-Prime/Autocoders/Python/test/tlm1/CMakeFiles/Autocoders_Python_test_tlm1.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Autocoders/Python/test/tlm1/CMakeFiles/Autocoders_Python_test_tlm1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Autocoders/Python/test/tlm1/CMakeFiles/Autocoders_Python_test_tlm1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Autocoders/Python/test/tlm1/CMakeFiles/Autocoders_Python_test_tlm1.dir/rule
@@ -6687,12 +6689,12 @@ F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer.dir/clean:
 F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer_ut_exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer_ut_exe.dir/build.make F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer_ut_exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer_ut_exe.dir/build.make F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer_ut_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Fw_Buffer_ut_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=51 "Built target Fw_Buffer_ut_exe"
 .PHONY : F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer_ut_exe.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer_ut_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer_ut_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer_ut_exe.dir/rule
@@ -6843,12 +6845,12 @@ F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/clean:
 F-Prime/Fw/Logger/CMakeFiles/Logger_Rules_Testing.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Logger/CMakeFiles/Logger_Rules_Testing.dir/build.make F-Prime/Fw/Logger/CMakeFiles/Logger_Rules_Testing.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Logger/CMakeFiles/Logger_Rules_Testing.dir/build.make F-Prime/Fw/Logger/CMakeFiles/Logger_Rules_Testing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=61 "Built target Logger_Rules_Testing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Logger_Rules_Testing"
 .PHONY : F-Prime/Fw/Logger/CMakeFiles/Logger_Rules_Testing.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Logger/CMakeFiles/Logger_Rules_Testing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Logger/CMakeFiles/Logger_Rules_Testing.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Fw/Logger/CMakeFiles/Logger_Rules_Testing.dir/rule
@@ -6999,12 +7001,12 @@ F-Prime/Fw/Prm/CMakeFiles/Fw_Prm.dir/clean:
 F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/build.make F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/build.make F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=51 "Built target Fw_Cfg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Fw_Cfg"
 .PHONY : F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/rule
@@ -7051,12 +7053,12 @@ F-Prime/Fw/Comp/CMakeFiles/Fw_Comp.dir/clean:
 F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/build.make F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/build.make F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Fw_CompQueued"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=53 "Built target Fw_CompQueued"
 .PHONY : F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/rule
@@ -7103,12 +7105,12 @@ F-Prime/Fw/Obj/CMakeFiles/Fw_Obj.dir/clean:
 F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Fw_Port"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=56 "Built target Fw_Port"
 .PHONY : F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/rule
@@ -7129,12 +7131,12 @@ F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/clean:
 F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/build.make F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/build.make F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=56 "Built target Fw_Ports_SuccessCondition"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Fw_Ports_SuccessCondition"
 .PHONY : F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/rule
@@ -7181,12 +7183,12 @@ F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/clean:
 F-Prime/Fw/Types/CMakeFiles/Fw_Types_ut_exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types_ut_exe.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types_ut_exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types_ut_exe.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types_ut_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Fw_Types_ut_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=61 "Built target Fw_Types_ut_exe"
 .PHONY : F-Prime/Fw/Types/CMakeFiles/Fw_Types_ut_exe.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Types/CMakeFiles/Fw_Types_ut_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Types/CMakeFiles/Fw_Types_ut_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Fw/Types/CMakeFiles/Fw_Types_ut_exe.dir/rule
@@ -7233,12 +7235,12 @@ F-Prime/Fw/Types/GTest/CMakeFiles/Fw_Types_GTest.dir/clean:
 F-Prime/Fw/FilePacket/CMakeFiles/Fw_FilePacket.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/FilePacket/CMakeFiles/Fw_FilePacket.dir/build.make F-Prime/Fw/FilePacket/CMakeFiles/Fw_FilePacket.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/FilePacket/CMakeFiles/Fw_FilePacket.dir/build.make F-Prime/Fw/FilePacket/CMakeFiles/Fw_FilePacket.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=53 "Built target Fw_FilePacket"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Fw_FilePacket"
 .PHONY : F-Prime/Fw/FilePacket/CMakeFiles/Fw_FilePacket.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/FilePacket/CMakeFiles/Fw_FilePacket.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/FilePacket/CMakeFiles/Fw_FilePacket.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Fw/FilePacket/CMakeFiles/Fw_FilePacket.dir/rule
@@ -7337,12 +7339,12 @@ F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/clean:
 F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile_ut_exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile_ut_exe.dir/build.make F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile_ut_exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile_ut_exe.dir/build.make F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile_ut_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Fw_SerializableFile_ut_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=58 "Built target Fw_SerializableFile_ut_exe"
 .PHONY : F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile_ut_exe.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile_ut_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile_ut_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile_ut_exe.dir/rule
@@ -7389,12 +7391,12 @@ F-Prime/Fw/SerializableFile/test/TestSerializable/CMakeFiles/Fw_SerializableFile
 F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/build.make F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/build.make F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=58 "Built target Fw_Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Fw_Test"
 .PHONY : F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/rule
@@ -7597,12 +7599,12 @@ F-Prime/Svc/WatchDog/CMakeFiles/Svc_WatchDog.dir/clean:
 F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/build.make F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/build.make F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Svc_ActiveLogger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=65 "Built target Svc_ActiveLogger"
 .PHONY : F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/rule
@@ -7623,12 +7625,12 @@ F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/clean:
 F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger_ut_exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger_ut_exe.dir/build.make F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger_ut_exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger_ut_exe.dir/build.make F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger_ut_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=65 "Built target Svc_ActiveLogger_ut_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Svc_ActiveLogger_ut_exe"
 .PHONY : F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger_ut_exe.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger_ut_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger_ut_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger_ut_exe.dir/rule
@@ -7831,12 +7833,12 @@ F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/clean:
 F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager_ut_exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager_ut_exe.dir/build.make F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager_ut_exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager_ut_exe.dir/build.make F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager_ut_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Svc_BufferManager_ut_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=70 "Built target Svc_BufferManager_ut_exe"
 .PHONY : F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager_ut_exe.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager_ut_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager_ut_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager_ut_exe.dir/rule
@@ -7909,12 +7911,12 @@ F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger_ut_exe.dir/clean:
 F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/build.make F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/build.make F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=70 "Built target Svc_BufferRepeater"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Svc_BufferRepeater"
 .PHONY : F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/rule
@@ -7987,12 +7989,12 @@ F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/clean:
 F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger_ut_exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger_ut_exe.dir/build.make F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger_ut_exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger_ut_exe.dir/build.make F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger_ut_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Svc_ComLogger_ut_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=73 "Built target Svc_ComLogger_ut_exe"
 .PHONY : F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger_ut_exe.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger_ut_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger_ut_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger_ut_exe.dir/rule
@@ -8013,12 +8015,12 @@ F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger_ut_exe.dir/clean:
 F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/build.make F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/build.make F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=73 "Built target Svc_ComQueue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Svc_ComQueue"
 .PHONY : F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/rule
@@ -8117,12 +8119,12 @@ F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_ut_exe.dir/clean:
 F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/build.make F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/build.make F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Svc_ComStub"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=75 "Built target Svc_ComStub"
 .PHONY : F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/rule
@@ -8143,12 +8145,12 @@ F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/clean:
 F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_ut_exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_ut_exe.dir/build.make F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_ut_exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_ut_exe.dir/build.make F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_ut_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=75 "Built target Svc_ComStub_ut_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Svc_ComStub_ut_exe"
 .PHONY : F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_ut_exe.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_ut_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_ut_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_ut_exe.dir/rule
@@ -8377,12 +8379,12 @@ F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler.dir/clean:
 F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/build.make F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/build.make F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=78 "Built target Svc_FileDownlinkPorts"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Svc_FileDownlinkPorts"
 .PHONY : F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/rule
@@ -8403,12 +8405,12 @@ F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/clean:
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/build.make F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/build.make F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Svc_FileDownlink"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=78 "Built target Svc_FileDownlink"
 .PHONY : F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/rule
@@ -8611,12 +8613,12 @@ F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub_ut_exe.dir/clean:
 F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/build.make F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/build.make F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Svc_GroundInterface"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=83 "Built target Svc_GroundInterface"
 .PHONY : F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/rule
@@ -8637,12 +8639,12 @@ F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/clean:
 F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface_ut_exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface_ut_exe.dir/build.make F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface_ut_exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface_ut_exe.dir/build.make F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface_ut_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=83 "Built target Svc_GroundInterface_ut_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Svc_GroundInterface_ut_exe"
 .PHONY : F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface_ut_exe.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface_ut_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface_ut_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface_ut_exe.dir/rule
@@ -9027,12 +9029,12 @@ F-Prime/Svc/RateGroupDriver/CMakeFiles/Svc_RateGroupDriver_ut_exe.dir/clean:
 F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/build.make F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/build.make F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Svc_StaticMemory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=91 "Built target Svc_StaticMemory"
 .PHONY : F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/rule
@@ -9053,12 +9055,12 @@ F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/clean:
 F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory_ut_exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory_ut_exe.dir/build.make F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory_ut_exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory_ut_exe.dir/build.make F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory_ut_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=91 "Built target Svc_StaticMemory_ut_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Svc_StaticMemory_ut_exe"
 .PHONY : F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory_ut_exe.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory_ut_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory_ut_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory_ut_exe.dir/rule
@@ -9625,12 +9627,12 @@ F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/clean:
 F-Prime/Drv/SpiDriverPorts/CMakeFiles/Drv_SpiDriverPorts.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/SpiDriverPorts/CMakeFiles/Drv_SpiDriverPorts.dir/build.make F-Prime/Drv/SpiDriverPorts/CMakeFiles/Drv_SpiDriverPorts.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/SpiDriverPorts/CMakeFiles/Drv_SpiDriverPorts.dir/build.make F-Prime/Drv/SpiDriverPorts/CMakeFiles/Drv_SpiDriverPorts.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Drv_SpiDriverPorts"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=48 "Built target Drv_SpiDriverPorts"
 .PHONY : F-Prime/Drv/SpiDriverPorts/CMakeFiles/Drv_SpiDriverPorts.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/SpiDriverPorts/CMakeFiles/Drv_SpiDriverPorts.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/SpiDriverPorts/CMakeFiles/Drv_SpiDriverPorts.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Drv/SpiDriverPorts/CMakeFiles/Drv_SpiDriverPorts.dir/rule
@@ -9651,12 +9653,12 @@ F-Prime/Drv/SpiDriverPorts/CMakeFiles/Drv_SpiDriverPorts.dir/clean:
 F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts.dir/build.make F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts.dir/build.make F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Drv_I2cDriverPorts"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=45 "Built target Drv_I2cDriverPorts"
 .PHONY : F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts.dir/rule
@@ -9677,12 +9679,12 @@ F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts.dir/clean:
 F-Prime/Drv/BlockDriver/CMakeFiles/Drv_BlockDriver.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/BlockDriver/CMakeFiles/Drv_BlockDriver.dir/build.make F-Prime/Drv/BlockDriver/CMakeFiles/Drv_BlockDriver.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/BlockDriver/CMakeFiles/Drv_BlockDriver.dir/build.make F-Prime/Drv/BlockDriver/CMakeFiles/Drv_BlockDriver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=43 "Built target Drv_BlockDriver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Drv_BlockDriver"
 .PHONY : F-Prime/Drv/BlockDriver/CMakeFiles/Drv_BlockDriver.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/BlockDriver/CMakeFiles/Drv_BlockDriver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/BlockDriver/CMakeFiles/Drv_BlockDriver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Drv/BlockDriver/CMakeFiles/Drv_BlockDriver.dir/rule
@@ -9729,12 +9731,12 @@ F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/clean
 F-Prime/Drv/LinuxGpioDriver/CMakeFiles/Drv_LinuxGpioDriver.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxGpioDriver/CMakeFiles/Drv_LinuxGpioDriver.dir/build.make F-Prime/Drv/LinuxGpioDriver/CMakeFiles/Drv_LinuxGpioDriver.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxGpioDriver/CMakeFiles/Drv_LinuxGpioDriver.dir/build.make F-Prime/Drv/LinuxGpioDriver/CMakeFiles/Drv_LinuxGpioDriver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=46 "Built target Drv_LinuxGpioDriver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Drv_LinuxGpioDriver"
 .PHONY : F-Prime/Drv/LinuxGpioDriver/CMakeFiles/Drv_LinuxGpioDriver.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/LinuxGpioDriver/CMakeFiles/Drv_LinuxGpioDriver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/LinuxGpioDriver/CMakeFiles/Drv_LinuxGpioDriver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Drv/LinuxGpioDriver/CMakeFiles/Drv_LinuxGpioDriver.dir/rule
@@ -9833,12 +9835,12 @@ F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver.dir/clean:
 F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=45 "Built target Drv_Ip"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Drv_Ip"
 .PHONY : F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/rule
@@ -9856,8 +9858,8 @@ F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/clean:
 # Target rules for target F-Prime/Drv/Ip/CMakeFiles/PortSelector.dir
 
 # All Build rule for target.
-F-Prime/Drv/Ip/CMakeFiles/PortSelector.dir/all: CMakeFiles/STest.dir/all
 F-Prime/Drv/Ip/CMakeFiles/PortSelector.dir/all: F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer.dir/all
+F-Prime/Drv/Ip/CMakeFiles/PortSelector.dir/all: CMakeFiles/STest.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/PortSelector.dir/build.make F-Prime/Drv/Ip/CMakeFiles/PortSelector.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/PortSelector.dir/build.make F-Prime/Drv/Ip/CMakeFiles/PortSelector.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target PortSelector"
@@ -9912,12 +9914,12 @@ F-Prime/Drv/Ip/CMakeFiles/Drv_Ip_Tcp_test.dir/clean:
 F-Prime/Drv/Ip/CMakeFiles/Drv_Ip_Udp_test.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip_Udp_test.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip_Udp_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip_Udp_test.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip_Udp_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Drv_Ip_Udp_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=46 "Built target Drv_Ip_Udp_test"
 .PHONY : F-Prime/Drv/Ip/CMakeFiles/Drv_Ip_Udp_test.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/Ip/CMakeFiles/Drv_Ip_Udp_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/Ip/CMakeFiles/Drv_Ip_Udp_test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Drv/Ip/CMakeFiles/Drv_Ip_Udp_test.dir/rule
@@ -9938,12 +9940,12 @@ F-Prime/Drv/Ip/CMakeFiles/Drv_Ip_Udp_test.dir/clean:
 F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/build.make F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/build.make F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=48 "Built target Drv_TcpClient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Drv_TcpClient"
 .PHONY : F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/rule
@@ -10042,12 +10044,12 @@ F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer_ut_exe.dir/clean:
 F-Prime/Drv/Udp/CMakeFiles/Drv_Udp.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/Udp/CMakeFiles/Drv_Udp.dir/build.make F-Prime/Drv/Udp/CMakeFiles/Drv_Udp.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/Udp/CMakeFiles/Drv_Udp.dir/build.make F-Prime/Drv/Udp/CMakeFiles/Drv_Udp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Drv_Udp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=50 "Built target Drv_Udp"
 .PHONY : F-Prime/Drv/Udp/CMakeFiles/Drv_Udp.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/Udp/CMakeFiles/Drv_Udp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/Udp/CMakeFiles/Drv_Udp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Drv/Udp/CMakeFiles/Drv_Udp.dir/rule
@@ -10068,12 +10070,12 @@ F-Prime/Drv/Udp/CMakeFiles/Drv_Udp.dir/clean:
 F-Prime/Drv/Udp/CMakeFiles/Drv_Udp_ut_exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/Udp/CMakeFiles/Drv_Udp_ut_exe.dir/build.make F-Prime/Drv/Udp/CMakeFiles/Drv_Udp_ut_exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/Udp/CMakeFiles/Drv_Udp_ut_exe.dir/build.make F-Prime/Drv/Udp/CMakeFiles/Drv_Udp_ut_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=50 "Built target Drv_Udp_ut_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Drv_Udp_ut_exe"
 .PHONY : F-Prime/Drv/Udp/CMakeFiles/Drv_Udp_ut_exe.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/Udp/CMakeFiles/Drv_Udp_ut_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/Udp/CMakeFiles/Drv_Udp_ut_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : F-Prime/Drv/Udp/CMakeFiles/Drv_Udp_ut_exe.dir/rule
@@ -10380,12 +10382,12 @@ Components/MathSender/CMakeFiles/Components_MathSender.dir/clean:
 Components/MathSender/CMakeFiles/Components_MathSender_ut_exe.dir/all:
 	$(MAKE) $(MAKESILENT) -f Components/MathSender/CMakeFiles/Components_MathSender_ut_exe.dir/build.make Components/MathSender/CMakeFiles/Components_MathSender_ut_exe.dir/depend
 	$(MAKE) $(MAKESILENT) -f Components/MathSender/CMakeFiles/Components_MathSender_ut_exe.dir/build.make Components/MathSender/CMakeFiles/Components_MathSender_ut_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Components_MathSender_ut_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=43 "Built target Components_MathSender_ut_exe"
 .PHONY : Components/MathSender/CMakeFiles/Components_MathSender_ut_exe.dir/all
 
 # Build rule for subdir invocation for target.
 Components/MathSender/CMakeFiles/Components_MathSender_ut_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Components/MathSender/CMakeFiles/Components_MathSender_ut_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : Components/MathSender/CMakeFiles/Components_MathSender_ut_exe.dir/rule
@@ -10406,12 +10408,12 @@ Components/MathSender/CMakeFiles/Components_MathSender_ut_exe.dir/clean:
 Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir/all:
 	$(MAKE) $(MAKESILENT) -f Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir/build.make Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir/depend
 	$(MAKE) $(MAKESILENT) -f Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir/build.make Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=42 "Built target Components_MathReceiver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num= "Built target Components_MathReceiver"
 .PHONY : Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir/all
 
 # Build rule for subdir invocation for target.
 Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
 .PHONY : Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir/rule
@@ -10424,6 +10426,32 @@ Components_MathReceiver: Components/MathReceiver/CMakeFiles/Components_MathRecei
 Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir/clean:
 	$(MAKE) $(MAKESILENT) -f Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir/build.make Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir/clean
 .PHONY : Components/MathReceiver/CMakeFiles/Components_MathReceiver.dir/clean
+
+#=============================================================================
+# Target rules for target Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir
+
+# All Build rule for target.
+Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/all:
+	$(MAKE) $(MAKESILENT) -f Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/build.make Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/depend
+	$(MAKE) $(MAKESILENT) -f Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/build.make Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles --progress-num=42 "Built target Components_MathReceiver_ut_exe"
+.PHONY : Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/all
+
+# Build rule for subdir invocation for target.
+Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/asloan/MathProject1/build-fprime-automatic-native-ut/prescan/CMakeFiles 0
+.PHONY : Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/rule
+
+# Convenience name for target.
+Components_MathReceiver_ut_exe: Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/rule
+.PHONY : Components_MathReceiver_ut_exe
+
+# clean rule for target.
+Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/build.make Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/clean
+.PHONY : Components/MathReceiver/CMakeFiles/Components_MathReceiver_ut_exe.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

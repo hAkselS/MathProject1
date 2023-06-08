@@ -1,3 +1,0 @@
-MathOpEnumAc.cpp
-MathOpEnumAc.hpp
-MathOpEnumAi.xml

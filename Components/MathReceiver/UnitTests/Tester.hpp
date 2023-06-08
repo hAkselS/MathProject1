@@ -41,10 +41,8 @@ namespace MathModule {
       // ----------------------------------------------------------------------
       // Tests
       // ----------------------------------------------------------------------
-
-      //! To do
-      //!
-      void toDo();
+      void testAdd(); 
+      void testSub(); 
 
     private:
 
@@ -103,7 +101,6 @@ namespace MathModule {
       //! The component under test
       //!
       MathReceiver component;
-
 
 
   };

@@ -1,4 +1,0 @@
-/Users/asloan/MathProject1/fprime/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp
-/Users/asloan/MathProject1/fprime/Fw/Buffer/Buffer.fpp
-/Users/asloan/MathProject1/fprime/Fw/Ports/SuccessCondition/SuccessCondition.fpp
-/Users/asloan/MathProject1/fprime/Fw/Types/Types.fpp

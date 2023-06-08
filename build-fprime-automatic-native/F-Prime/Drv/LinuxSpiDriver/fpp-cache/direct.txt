@@ -1,5 +1,0 @@
-/Users/asloan/MathProject1/fprime/Drv/LinuxSpiDriver/Events.fppi
-/Users/asloan/MathProject1/fprime/Drv/LinuxSpiDriver/Telemetry.fppi
-/Users/asloan/MathProject1/fprime/Drv/SpiDriverPorts/SpiDriverPorts.fpp
-/Users/asloan/MathProject1/fprime/Fw/Log/Log.fpp
-/Users/asloan/MathProject1/fprime/Fw/Tlm/Tlm.fpp

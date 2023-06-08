@@ -66,42 +66,42 @@ include Ports/CMakeFiles/Ports_impl.dir/compiler_depend.make
 # Include the progress variables for this target.
 include Ports/CMakeFiles/Ports_impl.dir/progress.make
 
-Ports/CMakeFiles/Ports_impl: Ports/MathOpPortAi.xml
 Ports/CMakeFiles/Ports_impl: Ports/MathResultPortAi.xml
-Ports/CMakeFiles/Ports_impl: Ports/MathOpPortAc.cpp
-Ports/CMakeFiles/Ports_impl: Ports/MathOpPortAc.hpp
+Ports/CMakeFiles/Ports_impl: Ports/OpRequestPortAi.xml
 Ports/CMakeFiles/Ports_impl: Ports/MathResultPortAc.cpp
 Ports/CMakeFiles/Ports_impl: Ports/MathResultPortAc.hpp
+Ports/CMakeFiles/Ports_impl: Ports/OpRequestPortAc.cpp
+Ports/CMakeFiles/Ports_impl: Ports/OpRequestPortAc.hpp
 
-Ports/MathOpPortAc.cpp: /Users/asloan/MathProject1/Ports/MathPorts.fpp
-Ports/MathOpPortAc.cpp: lib/Darwin/libTypes.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating MathOpPortAc.cpp, MathOpPortAc.hpp, MathResultPortAc.cpp, MathResultPortAc.hpp"
+Ports/MathResultPortAc.cpp: /Users/asloan/MathProject1/Ports/MathPorts.fpp
+Ports/MathResultPortAc.cpp: lib/Darwin/libTypes.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating MathResultPortAc.cpp, MathResultPortAc.hpp, OpRequestPortAc.cpp, OpRequestPortAc.hpp"
 	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports && /Users/asloan/MathProject1/venv/bin/fpp-to-cpp -d /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports -i /Users/asloan/MathProject1/Types/MathTypes.fpp /Users/asloan/MathProject1/Ports/MathPorts.fpp -p /Users/asloan/MathProject1/fprime,/Users/asloan/MathProject1,/Users/asloan/MathProject1/build-fprime-automatic-native-ut
 
-Ports/MathOpPortAc.hpp: Ports/MathOpPortAc.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate Ports/MathOpPortAc.hpp
-
-Ports/MathResultPortAc.cpp: Ports/MathOpPortAc.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate Ports/MathResultPortAc.cpp
-
-Ports/MathResultPortAc.hpp: Ports/MathOpPortAc.cpp
+Ports/MathResultPortAc.hpp: Ports/MathResultPortAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate Ports/MathResultPortAc.hpp
 
-Ports/MathOpPortAi.xml: /Users/asloan/MathProject1/Ports/MathPorts.fpp
-Ports/MathOpPortAi.xml: lib/Darwin/libTypes.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating MathOpPortAi.xml, MathResultPortAi.xml"
+Ports/OpRequestPortAc.cpp: Ports/MathResultPortAc.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate Ports/OpRequestPortAc.cpp
+
+Ports/OpRequestPortAc.hpp: Ports/MathResultPortAc.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate Ports/OpRequestPortAc.hpp
+
+Ports/MathResultPortAi.xml: /Users/asloan/MathProject1/Ports/MathPorts.fpp
+Ports/MathResultPortAi.xml: lib/Darwin/libTypes.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/asloan/MathProject1/build-fprime-automatic-native-ut/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating MathResultPortAi.xml, OpRequestPortAi.xml"
 	cd /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports && /Users/asloan/MathProject1/venv/bin/fpp-to-xml -d /Users/asloan/MathProject1/build-fprime-automatic-native-ut/Ports -i /Users/asloan/MathProject1/Types/MathTypes.fpp /Users/asloan/MathProject1/Ports/MathPorts.fpp -p /Users/asloan/MathProject1/fprime,/Users/asloan/MathProject1
 
-Ports/MathResultPortAi.xml: Ports/MathOpPortAi.xml
-	@$(CMAKE_COMMAND) -E touch_nocreate Ports/MathResultPortAi.xml
+Ports/OpRequestPortAi.xml: Ports/MathResultPortAi.xml
+	@$(CMAKE_COMMAND) -E touch_nocreate Ports/OpRequestPortAi.xml
 
 Ports_impl: Ports/CMakeFiles/Ports_impl
-Ports_impl: Ports/MathOpPortAc.cpp
-Ports_impl: Ports/MathOpPortAc.hpp
-Ports_impl: Ports/MathOpPortAi.xml
 Ports_impl: Ports/MathResultPortAc.cpp
 Ports_impl: Ports/MathResultPortAc.hpp
 Ports_impl: Ports/MathResultPortAi.xml
+Ports_impl: Ports/OpRequestPortAc.cpp
+Ports_impl: Ports/OpRequestPortAc.hpp
+Ports_impl: Ports/OpRequestPortAi.xml
 Ports_impl: Ports/CMakeFiles/Ports_impl.dir/build.make
 .PHONY : Ports_impl
 
