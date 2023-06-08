@@ -82,4 +82,84 @@ void Tester ::
     }
 }
 
+F32 Tester ::
+  computeResult(
+      F32 val1,
+      MathOp op,
+      F32 val2,
+      F32 factor
+  )
+  {
+      F32 result = 0;
+      switch (op.e) {
+          case MathOp::ADD:
+              result = val1 + val2;
+              break;
+          case MathOp::SUB:
+              result = val1 - val2;
+              break;
+          case MathOp::MUL:
+              result = val1 * val2;
+              break;
+          case MathOp::DIV:
+              result = val1 / val2;
+              break;
+          default:
+              FW_ASSERT(0, op.e);
+              break;
+      }
+      result *= factor;
+      return result;
+  }
+
+void Tester ::
+  doMathOp(
+      MathOp op,
+      F32 factor
+  )
+{
+
+    // pick values
+    const F32 val1 = pickF32Value();
+    const F32 val2 = pickF32Value();
+
+    // clear history
+    this->clearHistory();
+
+    // invoke operation port with add operation
+    this->invoke_to_mathOpIn(0, val1, op, val2);
+    // invoke scheduler port to dispatch message
+    const U32 context = STest::Pick::any();
+    this->invoke_to_schedIn(0, context);
+
+    // verify the result of the operation was returned
+
+    // check that there was one port invocation
+    ASSERT_FROM_PORT_HISTORY_SIZE(1);
+    // check that the port we expected was invoked
+    ASSERT_from_mathResultOut_SIZE(1);
+    // check that the component performed the operation correctly
+    const F32 result = computeResult(val1, op, val2, factor);
+    ASSERT_from_mathResultOut(0, result);
+
+    // verify events
+
+    // check that there was one event
+    ASSERT_EVENTS_SIZE(1);
+    // check that it was the op event
+    ASSERT_EVENTS_OPERATION_PERFORMED_SIZE(1);
+    // check that the event has the correct argument
+    ASSERT_EVENTS_OPERATION_PERFORMED(0, op);
+
+    // verify telemetry
+
+    // check that one channel was written
+    ASSERT_TLM_SIZE(1);
+    // check that it was the op channel
+    ASSERT_TLM_OPERATION_SIZE(1);
+    // check for the correct value of the channel
+    ASSERT_TLM_OPERATION(0, op);
+
+}
+
 } // end namespace MathModule

@@ -81,6 +81,10 @@ namespace MathModule {
 
       F32 pickF32Value();
 
+      F32 computeResult( F32 val1, MathOp op, F32 val2, F32 factor );
+
+      void doMathOp( MathOp op,F32 factor );
+
       void setFactor( F32 factor, ThrottleState throttleState );
       //! Connect ports
       //!
