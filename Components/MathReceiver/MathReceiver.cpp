@@ -17,7 +17,8 @@ namespace MathModule {
   MathReceiver ::
     MathReceiver(
         const char *const compName
-    ) : MathReceiverComponentBase(compName)
+    ) : MathReceiverComponentBase(compName),
+        numMathOps(0) 
   {
 
   }

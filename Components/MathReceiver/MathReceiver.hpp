@@ -26,10 +26,12 @@ namespace MathModule {
       MathReceiver(
           const char *const compName /*!< The component name*/
       );
+    
 
       //! Destroy object MathReceiver
       //!
       ~MathReceiver();
+
 
     PRIVATE:
 
